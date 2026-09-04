@@ -1,0 +1,83 @@
+seed: 0
+cache_dir: cache
+embedder: dinov2            # dinov2 | clip | phash   (clip / phash exist as harness baselines)
+models:
+  dinov2: facebook/dinov2-base
+  clip: openai/clip-vit-base-patch32
+image_size: [294, 224]      # h, w fed to DINOv2; multiples of 14, keeps the 4:3 portrait aspect
+batch_size: 16
+
+dedup:
+  near_dup_hamming: 8       # dHash (256-bit) Hamming distance at or below which two files are the same photo
+
+consensus:
+  method: median            # median | trimmed_mean
+  trim_fraction: 0.2        # only for trimmed_mean
+  min_peers_for_median: 3   # fewer peers than this -> plain mean
+
+gate:
+  z_thresh: 2.5             # modified z-score cut (Iglewicz & Hoaglin); set by `evaluate --write-threshold`
+  mad_floor: 0.01           # cosine units; stops z exploding in near-constant folders
+  p_thresh: 0.3             # suspicion_score operating point; set by `evaluate --write-threshold` (max F0.5, easy mode)
+  prior_outlier_rate: 0.05  # prior P(image is foreign) used in the likelihood-ratio posterior
+  min_subgroup_size: 3      # >= this many mutually-consistent low-scoring images = legitimate subgroup
+
+policy:
+  duplicate_suspicion: 0.3  # score given to extra copies of a duplicated photo
+  unreadable_suspicion: 0.5 # score given to files that cannot be decoded
+  cross_outlet_duplicate_suspicion: 0.9 # same file bytes submitted under two different outlets
+
+geometry:
+  enabled: true
+  max_side: 640
+  n_features: 2000
+  ratio: 0.75               # Lowe ratio test
+  ransac_thresh: 5.0        # px reprojection threshold
+  peers: 3                  # verify candidate against its top-k most similar folder peers ...
+  typical_peers: 2          # ... plus the folder's k highest-consensus (most typical) images
+  calib_pairs: 300          # samples per population for the geometry likelihood ratio
+
+tags:
+  template: "a photo of {}"
+  min_conf: 0.5             # softmax confidence needed before a brand mismatch is cited
+  scene_prompts:
+    storefront: "a small shop storefront with signboards, posters and goods for sale"
+    shop interior: "the inside of a small shop with a counter and shelves of goods"
+    closed shutter: "a shop with its metal roller shutter closed"
+    poster close-up: "a close-up photo of a printed poster, banner or QR code"
+    street scene: "a street or road with no shop in view"
+    house: "a residential house, gate or door"
+    restaurant: "a restaurant or tea stall with tables and chairs"
+    person: "a person posing for a photo"
+    screenshot: "a screenshot, document or piece of paper"
+    landscape: "an open field, river, grass or landscape"
+    vehicle: "a car, bus, truck or motorcycle"
+    indoor room: "an empty room inside a home or office"
+  brand_prompts:
+    bKash: "a pink bKash mobile banking sign"
+    Nagad: "an orange Nagad mobile banking sign"
+    Grameenphone: "a blue Grameenphone telecom sign"
+    Robi: "a red Robi telecom sign"
+    Banglalink: "an orange Banglalink telecom sign"
+    Airtel: "a red Airtel telecom sign"
+    none: "a shop with no telecom brand sign"
+
+ocr:
+  enabled: true
+  langs: [bn, en]
+  peers: 5                  # OCR the candidate plus this many highest-consensus peers
+  min_conf: 0.3
+
+harness:
+  seeds: [0, 1, 2]
+  inject_fraction: 0.5      # fraction of folders that receive transplants per seed
+  injections_per_folder: 1
+  modes: [easy, hard]       # easy = random donor outlet, hard = nearest outlet by mean embedding
+  select_mode: easy         # mode used to pick the operating point (hard is reported as a stress test)
+  z_grid: [2.5, 3.0, 3.5]
+  beta: 0.5                 # F-beta used to pick the operating point (precision-weighted)
+
+output:
+  json: results.json
+  csv: results.csv
+  html: report.html

@@ -1,0 +1,62 @@
+outlet_id,file_name,suspicion_score,label,meaning
+outlet_4369bd99,image_0006.jpg,0.9384,J,unrelated scene (not a shop)
+outlet_fe059a3c,image_0005.jpg,0.9368,J,unrelated scene (not a shop)
+outlet_6cd2f45a,image_0002.jpg,0.8916,S,same shop - shutter down / interior / other angle (false positive)
+outlet_486748c6,image_0002.jpg,0.8861,S,same shop - shutter down / interior / other angle (false positive)
+outlet_486748c6,image_0003.jpg,0.8818,S,same shop - shutter down / interior / other angle (false positive)
+outlet_6b2080bc,image_0003.jpg,0.8769,D,clearly a different shop/place
+outlet_28e3acec,image_0001_1_1.jpg,0.8645,D,clearly a different shop/place
+outlet_680cfd33,image_0001.jpg,0.862,P,close-up that does not show the outlet (poster/QR/gate)
+outlet_9c031b9b,image_0003_1.jpg,0.8542,D,clearly a different shop/place
+outlet_827dd729,image_0001_1.jpg,0.8487,U,undecidable from thumbnail
+outlet_349bc0a8,image_0007.jpg,0.8205,S,same shop - shutter down / interior / other angle (false positive)
+outlet_288f9f47,image_0002_1.jpg,0.7989,D,clearly a different shop/place
+outlet_abd3f7bb,image_0001.jpg,0.7934,D,clearly a different shop/place
+outlet_2ed27fc4,image_0003.jpg,0.7876,D,clearly a different shop/place
+outlet_349bc0a8,image_0001_1.jpg,0.7859,D,clearly a different shop/place
+outlet_c816ff76,image_0001_1.jpg,0.7847,S,same shop - shutter down / interior / other angle (false positive)
+outlet_648ccd9a,image_0002_1.jpg,0.7775,P,close-up that does not show the outlet (poster/QR/gate)
+outlet_8543b5b4,image_0004_1.jpg,0.7729,S,same shop - shutter down / interior / other angle (false positive)
+outlet_9c031b9b,image_0004_1.jpg,0.7612,D,clearly a different shop/place
+outlet_045f93b1,image_0002_1.jpg,0.753,S,same shop - shutter down / interior / other angle (false positive)
+outlet_def72cf4,image_0001.jpg,0.746,U,undecidable from thumbnail
+outlet_9c031b9b,image_0002_1.jpg,0.7428,D,clearly a different shop/place
+outlet_e9f9a70d,image_0002.jpg,0.7427,P,close-up that does not show the outlet (poster/QR/gate)
+outlet_aeaf0389,image_0001.jpg,0.7342,S,same shop - shutter down / interior / other angle (false positive)
+outlet_648ccd9a,image_0003_1.jpg,0.726,P,close-up that does not show the outlet (poster/QR/gate)
+outlet_cf8dc0e2,image_0002_1.jpg,0.7061,S,same shop - shutter down / interior / other angle (false positive)
+outlet_16412021,image_0004.jpg,0.7007,S,same shop - shutter down / interior / other angle (false positive)
+outlet_b6409886,image_0002_1.jpg,0.697,D,clearly a different shop/place
+outlet_aa55187a,image_0003_1.jpg,0.6965,D,clearly a different shop/place
+outlet_cf8dc0e2,image_0001_1.jpg,0.6949,S,same shop - shutter down / interior / other angle (false positive)
+outlet_89fe040d,image_0002.jpg,0.6882,S,same shop - shutter down / interior / other angle (false positive)
+outlet_76e418b9,image_0002.jpg,0.6878,D,clearly a different shop/place
+outlet_04473281,image_0001_1.jpg,0.6858,S,same shop - shutter down / interior / other angle (false positive)
+outlet_e1278646,image_0001_1.jpg,0.6839,D,clearly a different shop/place
+outlet_5d690cb1,image_0001.jpg,0.6836,U,undecidable from thumbnail
+outlet_66dff2a1,image_0001_1.jpg,0.6713,D,clearly a different shop/place
+outlet_28e3acec,image_0001_1.jpg,0.6703,U,undecidable from thumbnail
+outlet_04473281,image_0002_1.jpg,0.665,S,same shop - shutter down / interior / other angle (false positive)
+outlet_288f9f47,image_0001_1.jpg,0.662,D,clearly a different shop/place
+outlet_777f9297,image_0001_1.jpg,0.6552,S,same shop - shutter down / interior / other angle (false positive)
+outlet_349bc0a8,image_0002_1.jpg,0.6527,D,clearly a different shop/place
+outlet_b6409886,image_0001_1.jpg,0.6418,D,clearly a different shop/place
+outlet_827dd729,image_0003.jpg,0.6326,S,same shop - shutter down / interior / other angle (false positive)
+outlet_0c0e85b4,image_0001.jpg,0.6323,P,close-up that does not show the outlet (poster/QR/gate)
+outlet_bb8db053,image_0006.jpg,0.6187,S,same shop - shutter down / interior / other angle (false positive)
+outlet_c45b06f5,image_0007.jpg,0.6101,S,same shop - shutter down / interior / other angle (false positive)
+outlet_c2181b07,image_0003_1.jpg,0.6082,U,undecidable from thumbnail
+outlet_7f1dd575,image_0001_1.jpg,0.6064,D,clearly a different shop/place
+outlet_5edce88b,image_0009.jpg,0.5542,S,same shop - shutter down / interior / other angle (false positive)
+outlet_612f8240,image_0002_1.jpg,0.5112,S,same shop - shutter down / interior / other angle (false positive)
+outlet_c9465127,image_0009.jpg,0.5102,S,same shop - shutter down / interior / other angle (false positive)
+outlet_10c7ca00,image_0013.jpg,0.5005,S,same shop - shutter down / interior / other angle (false positive)
+outlet_28e3acec,image_0001_2.jpg,0.4928,S,same shop - shutter down / interior / other angle (false positive)
+outlet_89fe040d,image_0007.jpg,0.4449,S,same shop - shutter down / interior / other angle (false positive)
+outlet_045f93b1,image_0001_1.jpg,0.4417,S,same shop - shutter down / interior / other angle (false positive)
+outlet_def72cf4,image_0001_1.jpg,0.44,D,clearly a different shop/place
+outlet_ef7a091c,image_0004.jpg,0.4318,S,same shop - shutter down / interior / other angle (false positive)
+outlet_89fe040d,image_0008.jpg,0.4093,S,same shop - shutter down / interior / other angle (false positive)
+outlet_6087824b,image_0015.jpg,0.3849,S,same shop - shutter down / interior / other angle (false positive)
+outlet_2fed22e2,image_0001.jpg,0.3494,S,same shop - shutter down / interior / other angle (false positive)
+outlet_28e3acec,image_0002_1.jpg,0.3171,U,undecidable from thumbnail

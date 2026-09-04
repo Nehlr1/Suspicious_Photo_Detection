@@ -1,0 +1,51 @@
+{
+  "n_legit": 1752,
+  "n_foreign": 1998,
+  "floor": 0.2710189957935363,
+  "p_thresh": 0.3,
+  "legit_consensus_quantiles": {
+    "0.05": 0.351,
+    "0.25": 0.617,
+    "0.5": 0.732,
+    "0.75": 0.799,
+    "0.95": 0.854
+  },
+  "foreign_consensus_quantiles": {
+    "0.05": 0.149,
+    "0.25": 0.28,
+    "0.5": 0.393,
+    "0.75": 0.52,
+    "0.95": 0.67
+  },
+  "within_pair_quantiles": {
+    "0.05": 0.216,
+    "0.25": 0.528,
+    "0.5": 0.72,
+    "0.75": 0.815,
+    "0.95": 0.897
+  },
+  "cross_pair_quantiles": {
+    "0.05": 0.136,
+    "0.25": 0.266,
+    "0.5": 0.392,
+    "0.75": 0.538,
+    "0.95": 0.688
+  },
+  "embedder": "dinov2",
+  "geometry": {
+    "n_pairs": 300,
+    "legit_median_inliers": 134.49907748763462,
+    "foreign_median_inliers": 8.000000000000002,
+    "legit_frac_ge_15": 0.86,
+    "foreign_frac_ge_15": 0.24
+  },
+  "support_floor": 0.6022192797567695,
+  "flag_summary": {
+    "n_flagged": 105,
+    "n_outlets_with_flags": 64,
+    "by_kind": {
+      "duplicate": 44,
+      "scored": 61
+    }
+  }
+}
