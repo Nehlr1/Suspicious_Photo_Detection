@@ -7,7 +7,8 @@ Buried in thousands of legitimate images, those fakes are impractical to catch b
 Given one folder per outlet holding all photos ever taken there (no timestamps, no visit order),
 this tool flags the images that do not belong to that outlet's photo history, with a calibrated
 `suspicion_score` in [0, 1] and an evidence-based reason, so a reviewer looks at a few images
-instead of all of them. Method summary and numbers: [WRITEUP.md](WRITEUP.md).
+instead of all of them. Method summary and numbers: [WRITEUP.md](WRITEUP.md); how the pieces fit
+together: [ARCHITECTURE.md](ARCHITECTURE.md).
 
 Input `dataset/outlet_<id>/image_*.jpg`; this dataset is 159 outlets, 2,042 photos, 5-40 per folder.
 Output is one record per outlet, including outlets with nothing flagged.
