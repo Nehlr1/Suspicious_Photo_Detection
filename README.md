@@ -1,4 +1,4 @@
-# outlet-audit — suspicious outlet-photo detection
+# Outlet-audit: Suspicious outlet-photo detection
 
 Field agents photograph mobile-recharge outlets to prove a visit happened. Some cut corners and
 upload a photo of a different shop, an old picture, or something unrelated, just to close the task.
