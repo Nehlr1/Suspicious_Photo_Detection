@@ -136,5 +136,8 @@ class Explainer:
                 parts.append(f"Partial geometric match to {g['peer']} ({g['inliers']} inliers) was not enough to clear the floor.")
         if "subgroup" in ev:
             sg = ev["subgroup"]
-            parts.append(f"Note: {sg['size'] - 1} other images in this folder resemble it (median similarity {sg['s_sub']:.2f} > support level {ev['support_floor']:.2f}), but not enough to clear the gate.")
+            if not sg.get("anchored", True):
+                parts.append(f"{sg['size'] - 1} other images in this folder resemble it (median similarity {sg['s_sub']:.2f}) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole.")
+            else:
+                parts.append(f"Note: {sg['size'] - 1} other images in this folder resemble it (median similarity {sg['s_sub']:.2f} > support level {ev['support_floor']:.2f}), but not enough to clear the gate.")
         return " ".join(parts)

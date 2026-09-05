@@ -1,0 +1,2174 @@
+{
+  "thresholds": [
+    0.02,
+    0.04,
+    0.06,
+    0.08,
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "runs": {
+    "z=2.5|easy": {
+      "n_scored": 6234,
+      "n_foreign": 240,
+      "ap_raw": 0.06723958221615427,
+      "ap_gated": 0.04667001623645928,
+      "table": [
+        {
+          "threshold": 0.02,
+          "precision": 0.11702127659574468,
+          "recall": 0.04583333333333333,
+          "f1": 0.06586826347305388,
+          "f0.5": 0.08928571428571427,
+          "n_flagged": 94,
+          "tp": 11
+        },
+        {
+          "threshold": 0.04,
+          "precision": 0.11702127659574468,
+          "recall": 0.04583333333333333,
+          "f1": 0.06586826347305388,
+          "f0.5": 0.08928571428571427,
+          "n_flagged": 94,
+          "tp": 11
+        },
+        {
+          "threshold": 0.06,
+          "precision": 0.11702127659574468,
+          "recall": 0.04583333333333333,
+          "f1": 0.06586826347305388,
+          "f0.5": 0.08928571428571427,
+          "n_flagged": 94,
+          "tp": 11
+        },
+        {
+          "threshold": 0.08,
+          "precision": 0.11702127659574468,
+          "recall": 0.04583333333333333,
+          "f1": 0.06586826347305388,
+          "f0.5": 0.08928571428571427,
+          "n_flagged": 94,
+          "tp": 11
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.11494252873563218,
+          "recall": 0.041666666666666664,
+          "f1": 0.06116207951070336,
+          "f0.5": 0.08503401360544217,
+          "n_flagged": 87,
+          "tp": 10
+        },
+        {
+          "threshold": 0.12,
+          "precision": 0.11494252873563218,
+          "recall": 0.041666666666666664,
+          "f1": 0.06116207951070336,
+          "f0.5": 0.08503401360544217,
+          "n_flagged": 87,
+          "tp": 10
+        },
+        {
+          "threshold": 0.14,
+          "precision": 0.11494252873563218,
+          "recall": 0.041666666666666664,
+          "f1": 0.06116207951070336,
+          "f0.5": 0.08503401360544217,
+          "n_flagged": 87,
+          "tp": 10
+        },
+        {
+          "threshold": 0.16,
+          "precision": 0.07692307692307693,
+          "recall": 0.0125,
+          "f1": 0.021505376344086023,
+          "f0.5": 0.03787878787878788,
+          "n_flagged": 39,
+          "tp": 3
+        },
+        {
+          "threshold": 0.18,
+          "precision": 0.07692307692307693,
+          "recall": 0.0125,
+          "f1": 0.021505376344086023,
+          "f0.5": 0.03787878787878788,
+          "n_flagged": 39,
+          "tp": 3
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.07692307692307693,
+          "recall": 0.0125,
+          "f1": 0.021505376344086023,
+          "f0.5": 0.03787878787878788,
+          "n_flagged": 39,
+          "tp": 3
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.07142857142857142,
+          "recall": 0.004166666666666667,
+          "f1": 0.007874015748031496,
+          "f0.5": 0.01689189189189189,
+          "n_flagged": 14,
+          "tp": 1
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        }
+      ]
+    },
+    "z=2.5|hard": {
+      "n_scored": 6234,
+      "n_foreign": 240,
+      "ap_raw": 0.0396040538445187,
+      "ap_gated": 0.03804955732989811,
+      "table": [
+        {
+          "threshold": 0.02,
+          "precision": 0.013157894736842105,
+          "recall": 0.004166666666666667,
+          "f1": 0.006329113924050633,
+          "f0.5": 0.009191176470588236,
+          "n_flagged": 76,
+          "tp": 1
+        },
+        {
+          "threshold": 0.04,
+          "precision": 0.013157894736842105,
+          "recall": 0.004166666666666667,
+          "f1": 0.006329113924050633,
+          "f0.5": 0.009191176470588236,
+          "n_flagged": 76,
+          "tp": 1
+        },
+        {
+          "threshold": 0.06,
+          "precision": 0.013157894736842105,
+          "recall": 0.004166666666666667,
+          "f1": 0.006329113924050633,
+          "f0.5": 0.009191176470588236,
+          "n_flagged": 76,
+          "tp": 1
+        },
+        {
+          "threshold": 0.08,
+          "precision": 0.013157894736842105,
+          "recall": 0.004166666666666667,
+          "f1": 0.006329113924050633,
+          "f0.5": 0.009191176470588236,
+          "n_flagged": 76,
+          "tp": 1
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 68,
+          "tp": 0
+        },
+        {
+          "threshold": 0.12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 68,
+          "tp": 0
+        },
+        {
+          "threshold": 0.14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 68,
+          "tp": 0
+        },
+        {
+          "threshold": 0.16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 36,
+          "tp": 0
+        },
+        {
+          "threshold": 0.18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 36,
+          "tp": 0
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 36,
+          "tp": 0
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 10,
+          "tp": 0
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        }
+      ]
+    },
+    "z=2.5|all": {
+      "n_scored": 12468,
+      "n_foreign": 480,
+      "ap_raw": 0.049236522033220056,
+      "ap_gated": 0.04068544217084954,
+      "table": [
+        {
+          "threshold": 0.02,
+          "precision": 0.07058823529411765,
+          "recall": 0.025,
+          "f1": 0.036923076923076927,
+          "f0.5": 0.05172413793103448,
+          "n_flagged": 170,
+          "tp": 12
+        },
+        {
+          "threshold": 0.04,
+          "precision": 0.07058823529411765,
+          "recall": 0.025,
+          "f1": 0.036923076923076927,
+          "f0.5": 0.05172413793103448,
+          "n_flagged": 170,
+          "tp": 12
+        },
+        {
+          "threshold": 0.06,
+          "precision": 0.07058823529411765,
+          "recall": 0.025,
+          "f1": 0.036923076923076927,
+          "f0.5": 0.05172413793103448,
+          "n_flagged": 170,
+          "tp": 12
+        },
+        {
+          "threshold": 0.08,
+          "precision": 0.07058823529411765,
+          "recall": 0.025,
+          "f1": 0.036923076923076927,
+          "f0.5": 0.05172413793103448,
+          "n_flagged": 170,
+          "tp": 12
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.06451612903225806,
+          "recall": 0.020833333333333332,
+          "f1": 0.031496062992125984,
+          "f0.5": 0.045454545454545456,
+          "n_flagged": 155,
+          "tp": 10
+        },
+        {
+          "threshold": 0.12,
+          "precision": 0.06451612903225806,
+          "recall": 0.020833333333333332,
+          "f1": 0.031496062992125984,
+          "f0.5": 0.045454545454545456,
+          "n_flagged": 155,
+          "tp": 10
+        },
+        {
+          "threshold": 0.14,
+          "precision": 0.06451612903225806,
+          "recall": 0.020833333333333332,
+          "f1": 0.031496062992125984,
+          "f0.5": 0.045454545454545456,
+          "n_flagged": 155,
+          "tp": 10
+        },
+        {
+          "threshold": 0.16,
+          "precision": 0.04,
+          "recall": 0.00625,
+          "f1": 0.010810810810810811,
+          "f0.5": 0.019230769230769235,
+          "n_flagged": 75,
+          "tp": 3
+        },
+        {
+          "threshold": 0.18,
+          "precision": 0.04,
+          "recall": 0.00625,
+          "f1": 0.010810810810810811,
+          "f0.5": 0.019230769230769235,
+          "n_flagged": 75,
+          "tp": 3
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.04,
+          "recall": 0.00625,
+          "f1": 0.010810810810810811,
+          "f0.5": 0.019230769230769235,
+          "n_flagged": 75,
+          "tp": 3
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.041666666666666664,
+          "recall": 0.0020833333333333333,
+          "f1": 0.003968253968253968,
+          "f0.5": 0.008680555555555556,
+          "n_flagged": 24,
+          "tp": 1
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        }
+      ]
+    },
+    "z=3.0|easy": {
+      "n_scored": 6234,
+      "n_foreign": 240,
+      "ap_raw": 0.06641320766842329,
+      "ap_gated": 0.04881179322874833,
+      "table": [
+        {
+          "threshold": 0.02,
+          "precision": 0.13513513513513514,
+          "recall": 0.041666666666666664,
+          "f1": 0.06369426751592357,
+          "f0.5": 0.09328358208955222,
+          "n_flagged": 74,
+          "tp": 10
+        },
+        {
+          "threshold": 0.04,
+          "precision": 0.13513513513513514,
+          "recall": 0.041666666666666664,
+          "f1": 0.06369426751592357,
+          "f0.5": 0.09328358208955222,
+          "n_flagged": 74,
+          "tp": 10
+        },
+        {
+          "threshold": 0.06,
+          "precision": 0.13513513513513514,
+          "recall": 0.041666666666666664,
+          "f1": 0.06369426751592357,
+          "f0.5": 0.09328358208955222,
+          "n_flagged": 74,
+          "tp": 10
+        },
+        {
+          "threshold": 0.08,
+          "precision": 0.13513513513513514,
+          "recall": 0.041666666666666664,
+          "f1": 0.06369426751592357,
+          "f0.5": 0.09328358208955222,
+          "n_flagged": 74,
+          "tp": 10
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.1323529411764706,
+          "recall": 0.0375,
+          "f1": 0.05844155844155843,
+          "f0.5": 0.087890625,
+          "n_flagged": 68,
+          "tp": 9
+        },
+        {
+          "threshold": 0.12,
+          "precision": 0.1323529411764706,
+          "recall": 0.0375,
+          "f1": 0.05844155844155843,
+          "f0.5": 0.087890625,
+          "n_flagged": 68,
+          "tp": 9
+        },
+        {
+          "threshold": 0.14,
+          "precision": 0.1323529411764706,
+          "recall": 0.0375,
+          "f1": 0.05844155844155843,
+          "f0.5": 0.087890625,
+          "n_flagged": 68,
+          "tp": 9
+        },
+        {
+          "threshold": 0.16,
+          "precision": 0.08,
+          "recall": 0.008333333333333333,
+          "f1": 0.01509433962264151,
+          "f0.5": 0.029411764705882353,
+          "n_flagged": 25,
+          "tp": 2
+        },
+        {
+          "threshold": 0.18,
+          "precision": 0.08,
+          "recall": 0.008333333333333333,
+          "f1": 0.01509433962264151,
+          "f0.5": 0.029411764705882353,
+          "n_flagged": 25,
+          "tp": 2
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.08,
+          "recall": 0.008333333333333333,
+          "f1": 0.01509433962264151,
+          "f0.5": 0.029411764705882353,
+          "n_flagged": 25,
+          "tp": 2
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.125,
+          "recall": 0.004166666666666667,
+          "f1": 0.008064516129032258,
+          "f0.5": 0.01838235294117647,
+          "n_flagged": 8,
+          "tp": 1
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        }
+      ]
+    },
+    "z=3.0|hard": {
+      "n_scored": 6234,
+      "n_foreign": 240,
+      "ap_raw": 0.039211792651590624,
+      "ap_gated": 0.0382686814998724,
+      "table": [
+        {
+          "threshold": 0.02,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 51,
+          "tp": 0
+        },
+        {
+          "threshold": 0.04,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 51,
+          "tp": 0
+        },
+        {
+          "threshold": 0.06,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 51,
+          "tp": 0
+        },
+        {
+          "threshold": 0.08,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 51,
+          "tp": 0
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 47,
+          "tp": 0
+        },
+        {
+          "threshold": 0.12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 47,
+          "tp": 0
+        },
+        {
+          "threshold": 0.14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 47,
+          "tp": 0
+        },
+        {
+          "threshold": 0.16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 18,
+          "tp": 0
+        },
+        {
+          "threshold": 0.18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 18,
+          "tp": 0
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 18,
+          "tp": 0
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 4,
+          "tp": 0
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        }
+      ]
+    },
+    "z=3.0|all": {
+      "n_scored": 12468,
+      "n_foreign": 480,
+      "ap_raw": 0.04868565826419802,
+      "ap_gated": 0.041580336991783304,
+      "table": [
+        {
+          "threshold": 0.02,
+          "precision": 0.08,
+          "recall": 0.020833333333333332,
+          "f1": 0.03305785123966942,
+          "f0.5": 0.05102040816326531,
+          "n_flagged": 125,
+          "tp": 10
+        },
+        {
+          "threshold": 0.04,
+          "precision": 0.08,
+          "recall": 0.020833333333333332,
+          "f1": 0.03305785123966942,
+          "f0.5": 0.05102040816326531,
+          "n_flagged": 125,
+          "tp": 10
+        },
+        {
+          "threshold": 0.06,
+          "precision": 0.08,
+          "recall": 0.020833333333333332,
+          "f1": 0.03305785123966942,
+          "f0.5": 0.05102040816326531,
+          "n_flagged": 125,
+          "tp": 10
+        },
+        {
+          "threshold": 0.08,
+          "precision": 0.08,
+          "recall": 0.020833333333333332,
+          "f1": 0.03305785123966942,
+          "f0.5": 0.05102040816326531,
+          "n_flagged": 125,
+          "tp": 10
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.0782608695652174,
+          "recall": 0.01875,
+          "f1": 0.030252100840336135,
+          "f0.5": 0.047872340425531915,
+          "n_flagged": 115,
+          "tp": 9
+        },
+        {
+          "threshold": 0.12,
+          "precision": 0.0782608695652174,
+          "recall": 0.01875,
+          "f1": 0.030252100840336135,
+          "f0.5": 0.047872340425531915,
+          "n_flagged": 115,
+          "tp": 9
+        },
+        {
+          "threshold": 0.14,
+          "precision": 0.0782608695652174,
+          "recall": 0.01875,
+          "f1": 0.030252100840336135,
+          "f0.5": 0.047872340425531915,
+          "n_flagged": 115,
+          "tp": 9
+        },
+        {
+          "threshold": 0.16,
+          "precision": 0.046511627906976744,
+          "recall": 0.004166666666666667,
+          "f1": 0.0076481835564053535,
+          "f0.5": 0.015337423312883437,
+          "n_flagged": 43,
+          "tp": 2
+        },
+        {
+          "threshold": 0.18,
+          "precision": 0.046511627906976744,
+          "recall": 0.004166666666666667,
+          "f1": 0.0076481835564053535,
+          "f0.5": 0.015337423312883437,
+          "n_flagged": 43,
+          "tp": 2
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.046511627906976744,
+          "recall": 0.004166666666666667,
+          "f1": 0.0076481835564053535,
+          "f0.5": 0.015337423312883437,
+          "n_flagged": 43,
+          "tp": 2
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.08333333333333333,
+          "recall": 0.0020833333333333333,
+          "f1": 0.004065040650406504,
+          "f0.5": 0.00946969696969697,
+          "n_flagged": 12,
+          "tp": 1
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        }
+      ]
+    },
+    "z=3.5|easy": {
+      "n_scored": 6234,
+      "n_foreign": 240,
+      "ap_raw": 0.06687065043597018,
+      "ap_gated": 0.04311699750403606,
+      "table": [
+        {
+          "threshold": 0.02,
+          "precision": 0.08064516129032258,
+          "recall": 0.020833333333333332,
+          "f1": 0.03311258278145695,
+          "f0.5": 0.05122950819672131,
+          "n_flagged": 62,
+          "tp": 5
+        },
+        {
+          "threshold": 0.04,
+          "precision": 0.08064516129032258,
+          "recall": 0.020833333333333332,
+          "f1": 0.03311258278145695,
+          "f0.5": 0.05122950819672131,
+          "n_flagged": 62,
+          "tp": 5
+        },
+        {
+          "threshold": 0.06,
+          "precision": 0.08064516129032258,
+          "recall": 0.020833333333333332,
+          "f1": 0.03311258278145695,
+          "f0.5": 0.05122950819672131,
+          "n_flagged": 62,
+          "tp": 5
+        },
+        {
+          "threshold": 0.08,
+          "precision": 0.08064516129032258,
+          "recall": 0.020833333333333332,
+          "f1": 0.03311258278145695,
+          "f0.5": 0.05122950819672131,
+          "n_flagged": 62,
+          "tp": 5
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.06779661016949153,
+          "recall": 0.016666666666666666,
+          "f1": 0.026755852842809368,
+          "f0.5": 0.04201680672268908,
+          "n_flagged": 59,
+          "tp": 4
+        },
+        {
+          "threshold": 0.12,
+          "precision": 0.06779661016949153,
+          "recall": 0.016666666666666666,
+          "f1": 0.026755852842809368,
+          "f0.5": 0.04201680672268908,
+          "n_flagged": 59,
+          "tp": 4
+        },
+        {
+          "threshold": 0.14,
+          "precision": 0.06779661016949153,
+          "recall": 0.016666666666666666,
+          "f1": 0.026755852842809368,
+          "f0.5": 0.04201680672268908,
+          "n_flagged": 59,
+          "tp": 4
+        },
+        {
+          "threshold": 0.16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 19,
+          "tp": 0
+        },
+        {
+          "threshold": 0.18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 19,
+          "tp": 0
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 19,
+          "tp": 0
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 7,
+          "tp": 0
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        }
+      ]
+    },
+    "z=3.5|hard": {
+      "n_scored": 6234,
+      "n_foreign": 240,
+      "ap_raw": 0.039598024227278254,
+      "ap_gated": 0.03830038103886619,
+      "table": [
+        {
+          "threshold": 0.02,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 47,
+          "tp": 0
+        },
+        {
+          "threshold": 0.04,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 47,
+          "tp": 0
+        },
+        {
+          "threshold": 0.06,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 47,
+          "tp": 0
+        },
+        {
+          "threshold": 0.08,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 47,
+          "tp": 0
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 45,
+          "tp": 0
+        },
+        {
+          "threshold": 0.12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 45,
+          "tp": 0
+        },
+        {
+          "threshold": 0.14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 45,
+          "tp": 0
+        },
+        {
+          "threshold": 0.16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 18,
+          "tp": 0
+        },
+        {
+          "threshold": 0.18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 18,
+          "tp": 0
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 18,
+          "tp": 0
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 4,
+          "tp": 0
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        }
+      ]
+    },
+    "z=3.5|all": {
+      "n_scored": 12468,
+      "n_foreign": 480,
+      "ap_raw": 0.04915989912565797,
+      "ap_gated": 0.03962512602601304,
+      "table": [
+        {
+          "threshold": 0.02,
+          "precision": 0.045871559633027525,
+          "recall": 0.010416666666666666,
+          "f1": 0.01697792869269949,
+          "f0.5": 0.027292576419213975,
+          "n_flagged": 109,
+          "tp": 5
+        },
+        {
+          "threshold": 0.04,
+          "precision": 0.045871559633027525,
+          "recall": 0.010416666666666666,
+          "f1": 0.01697792869269949,
+          "f0.5": 0.027292576419213975,
+          "n_flagged": 109,
+          "tp": 5
+        },
+        {
+          "threshold": 0.06,
+          "precision": 0.045871559633027525,
+          "recall": 0.010416666666666666,
+          "f1": 0.01697792869269949,
+          "f0.5": 0.027292576419213975,
+          "n_flagged": 109,
+          "tp": 5
+        },
+        {
+          "threshold": 0.08,
+          "precision": 0.045871559633027525,
+          "recall": 0.010416666666666666,
+          "f1": 0.01697792869269949,
+          "f0.5": 0.027292576419213975,
+          "n_flagged": 109,
+          "tp": 5
+        },
+        {
+          "threshold": 0.1,
+          "precision": 0.038461538461538464,
+          "recall": 0.008333333333333333,
+          "f1": 0.0136986301369863,
+          "f0.5": 0.022321428571428575,
+          "n_flagged": 104,
+          "tp": 4
+        },
+        {
+          "threshold": 0.12,
+          "precision": 0.038461538461538464,
+          "recall": 0.008333333333333333,
+          "f1": 0.0136986301369863,
+          "f0.5": 0.022321428571428575,
+          "n_flagged": 104,
+          "tp": 4
+        },
+        {
+          "threshold": 0.14,
+          "precision": 0.038461538461538464,
+          "recall": 0.008333333333333333,
+          "f1": 0.0136986301369863,
+          "f0.5": 0.022321428571428575,
+          "n_flagged": 104,
+          "tp": 4
+        },
+        {
+          "threshold": 0.16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 37,
+          "tp": 0
+        },
+        {
+          "threshold": 0.18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 37,
+          "tp": 0
+        },
+        {
+          "threshold": 0.2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 37,
+          "tp": 0
+        },
+        {
+          "threshold": 0.25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 11,
+          "tp": 0
+        },
+        {
+          "threshold": 0.3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.75,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.85,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        },
+        {
+          "threshold": 0.95,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "f0.5": 0.0,
+          "n_flagged": 0,
+          "tp": 0
+        }
+      ]
+    }
+  },
+  "calibration": {
+    "n_legit": 1900,
+    "n_foreign": 1998,
+    "floor": -0.173125,
+    "p_thresh": 0.3,
+    "legit_consensus_quantiles": {
+      "0.05": 0.0,
+      "0.25": 0.062,
+      "0.5": 0.125,
+      "0.75": 0.188,
+      "0.95": 0.312
+    },
+    "foreign_consensus_quantiles": {
+      "0.05": -0.062,
+      "0.25": 0.0,
+      "0.5": 0.031,
+      "0.75": 0.062,
+      "0.95": 0.125
+    },
+    "within_pair_quantiles": {
+      "0.05": -0.125,
+      "0.25": 0.0,
+      "0.5": 0.125,
+      "0.75": 0.25,
+      "0.95": 0.438
+    },
+    "cross_pair_quantiles": {
+      "0.05": -0.188,
+      "0.25": -0.062,
+      "0.5": 0.0,
+      "0.75": 0.125,
+      "0.95": 0.25
+    },
+    "embedder": "phash"
+  },
+  "operating_point": {
+    "run": "z=3.0|easy",
+    "z_thresh": 3.0,
+    "threshold": 0.02,
+    "precision": 0.13513513513513514,
+    "recall": 0.041666666666666664,
+    "f1": 0.06369426751592357,
+    "f0.5": 0.09328358208955222,
+    "n_flagged": 74,
+    "tp": 10
+  }
+}

@@ -20,7 +20,9 @@ gate:
   mad_floor: 0.01           # cosine units; stops z exploding in near-constant folders
   p_thresh: 0.3             # suspicion_score operating point; set by `evaluate --write-threshold` (max F0.5, easy mode)
   prior_outlier_rate: 0.05  # prior P(image is foreign) used in the likelihood-ratio posterior
-  min_subgroup_size: 3      # >= this many mutually-consistent low-scoring images = legitimate subgroup
+  min_subgroup_size: 3      # >= this many mutually-consistent low-scoring images = legitimate subgroup (must include a non-outlier)
+  p_abs: 0.5                # posterior at/above which an image is a candidate even when the folder's spread swamps the z gate
+  folder_review_floor: 0.45 # folder median consensus below this = folder too incoherent for per-image flags, send to review
 
 policy:
   duplicate_suspicion: 0.3  # score given to extra copies of a duplicated photo

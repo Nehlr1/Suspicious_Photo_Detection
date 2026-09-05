@@ -41,11 +41,28 @@
   },
   "support_floor": 0.6022192797567695,
   "flag_summary": {
-    "n_flagged": 105,
-    "n_outlets_with_flags": 64,
+    "n_flagged": 140,
+    "n_outlets_with_flags": 79,
     "by_kind": {
-      "duplicate": 44,
-      "scored": 61
+      "scored": 96,
+      "duplicate": 44
     }
+  },
+  "folder_review": {
+    "floor": 0.45,
+    "outlets": [
+      "outlet_083cd34a",
+      "outlet_2df55e25",
+      "outlet_2ed27fc4",
+      "outlet_486748c6",
+      "outlet_4eaf2e47",
+      "outlet_680cfd33",
+      "outlet_6aa59f2b",
+      "outlet_927fbbbb",
+      "outlet_ac589c16",
+      "outlet_d8c2f00a",
+      "outlet_ec938d8d",
+      "outlet_ed090717"
+    ]
   }
 }

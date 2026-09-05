@@ -83,6 +83,7 @@ def cmd_run(a):
     for fe, i in flagged:
         kinds[fe.images[i].kind] = kinds.get(fe.images[i].kind, 0) + 1
     stats["flag_summary"] = {"n_flagged": len(flagged), "n_outlets_with_flags": len({fe.outlet for fe, _ in flagged}), "by_kind": kinds}
+    stats["folder_review"] = {"floor": cfg.gate.folder_review_floor, "outlets": [fe.outlet for fe in fevals if fe.review]}
     (out / "calibration.json").write_text(json.dumps(stats, indent=2))
     if a.report:
         write_html(fevals, reasons, stats, out / cfg.output.html)

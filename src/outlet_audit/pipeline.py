@@ -29,6 +29,8 @@ class FolderEval:
     images: list[ImageEval]
     scored_idx: list[int]  # indices into images that entered consensus scoring
     S: np.ndarray | None  # cosine matrix among scored images
+    median_s: float = float("nan")  # folder median consensus
+    review: bool = False  # median below gate.folder_review_floor: per-image flags unreliable, review the folder
 
     def ranking(self) -> list[int]:
         def key(i):
@@ -114,7 +116,7 @@ class Scorer:
         images = [ImageEval(r) for r in recs]
         rep_idx, dup_of = dedup(recs, cfg.dedup.near_dup_hamming)
         scored = [i for i in rep_idx if recs[i].readable]
-        S = None
+        S, med, review = None, float("nan"), False
         if scored:
             E = np.stack([self.emb[recs[i].sha256] for i in scored])
             S = cosine_matrix(E)
@@ -123,18 +125,24 @@ class Scorer:
             susp = np.atleast_1d(self.lr.posterior(s))
             if n >= 3:
                 z = modified_z(s, g.mad_floor)
-                rel = z < -g.z_thresh  # relative gate: selects candidates for verification
+                # relative gate selects candidates for verification; an image whose posterior is already high is a
+                # candidate too, so a folder whose spread swamps the MAD still surfaces its worst images
+                rel = (z < -g.z_thresh) | (susp >= g.p_abs)
             elif n == 2:  # relative gate impossible (one shared similarity): absolute gate only
                 z, rel = np.full(2, np.nan), np.ones(2, bool)
             else:
                 z, rel = np.full(1, np.nan), np.zeros(1, bool)
             med = float(np.nanmedian(s))
+            review = n >= 3 and med < g.folder_review_floor
             for k, i in enumerate(scored):
                 ev = {"s": float(s[k]), "z": float(z[k]), "folder_median_s": med, "floor": self.floor, "support_floor": self.support_floor, "n_scored": n, "candidate": bool(rel[k])}
                 p = float(susp[k])
                 if rel[k] and n >= 3:
                     if self.geom is not None:
-                        peers = peer_indices(S[k], s, self.geom.peers, self.geom.typical_peers, exclude=k)
+                        # nearest peers are drawn from images the folder vouches for (consensus at or above the support
+                        # level): a transplanted group would otherwise verify each member against its own siblings
+                        sims = np.where(s >= self.support_floor, S[k], -np.inf)
+                        peers = peer_indices(sims, s, self.geom.peers, self.geom.typical_peers, exclude=k)
                         inl, best = self.geom.statistic(recs[i], [recs[scored[j]] for j in peers])
                         extra = float(self.geom_lr.log_lr(geom_stat_value(inl))[0])
                         ev["geom"] = {"inliers": inl, "peer": best.file_name if best else None, "log_lr": extra}
@@ -142,9 +150,13 @@ class Scorer:
                     grp = support_group(S, k, self.support_floor, g.min_subgroup_size)
                     if grp is not None:
                         peers_k, s_sub = grp
+                        # a set of photos transplanted from one other shop is internally coherent too; the subgroup
+                        # only vouches for the candidate when one of its members agrees with the folder on its own
+                        anchored = bool((s[peers_k] >= self.support_floor).any())
                         p_sub = float(self.lr.posterior(s_sub))
-                        ev["subgroup"] = {"size": len(peers_k) + 1, "s_sub": s_sub, "p_sub": p_sub, "peers": [recs[scored[j]].file_name for j in peers_k]}
-                        p *= p_sub
+                        ev["subgroup"] = {"size": len(peers_k) + 1, "s_sub": s_sub, "p_sub": p_sub, "anchored": anchored, "peers": [recs[scored[j]].file_name for j in peers_k]}
+                        if anchored:
+                            p *= p_sub
                 images[i].suspicion, images[i].ev = p, ev
                 images[i].flagged = bool(rel[k]) and p >= g.p_thresh  # absolute gate on the final posterior
                 if n == 2 and images[i].flagged:
@@ -164,7 +176,7 @@ class Scorer:
                     images[i].ev = {**images[i].ev, "cross_dup": others[0]}
                     images[i].suspicion = max(images[i].suspicion, pol.cross_outlet_duplicate_suspicion)
                     images[i].flagged = True
-        return FolderEval(outlet, images, scored, S)
+        return FolderEval(outlet, images, scored, S, med, review)
 
 
 def build_sha_index(folders: dict[str, list[ImageRec]]) -> dict[str, list[tuple[str, str]]]:

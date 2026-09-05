@@ -2,17 +2,25 @@
   {
     "outlet_id": "outlet_003a29a9",
     "total_images": 8,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.6258,
+        "reason": "Median similarity to peers 0.24 vs folder median 0.54 (modified z = -5.1; absolute floor 0.27). Scene reads as 'closed shutter' while 4/7 peers read as 'storefront'. Signage text 'চার্জ হাজারে | কাশ | v৫০ হাজার পর্যন্ত' shares 6/11 tokens with outlet signage ('সুবিধা | IRT | ১৪৯৫'). No geometric match to nearest peers (max 15 SIFT inliers)."
+      }
+    ],
     "ranking": [
+      "image_0001.jpg",
       "image_0004.jpg",
       "image_0008.jpg",
-      "image_0001.jpg",
       "image_0002.jpg",
       "image_0007.jpg",
       "image_0003.jpg",
       "image_0006.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.543,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_004449c0",
@@ -29,7 +37,9 @@
       "image_0008.jpg",
       "image_0006.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.691,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_01e0d230",
@@ -53,7 +63,9 @@
       "image_0003.jpg",
       "image_0011.jpg",
       "image_0014.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.697,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_0280ccb5",
@@ -108,7 +120,9 @@
       "image_0022.jpg",
       "image_0016.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.78,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_04473281",
@@ -121,8 +135,8 @@
       },
       {
         "file_name": "image_0002_1.jpg",
-        "suspicion_score": 0.6764,
-        "reason": "Median similarity to peers 0.40 vs folder median 0.77 (modified z = -9.6; absolute floor 0.27). Scene reads as 'shop interior' while 6/12 peers read as 'closed shutter'. No readable signage text, while peers show '৭১৬ | সকল | ১৬৯৩১৯'. No geometric match to nearest peers (max 8 SIFT inliers)."
+        "suspicion_score": 0.6829,
+        "reason": "Median similarity to peers 0.40 vs folder median 0.77 (modified z = -9.6; absolute floor 0.27). Scene reads as 'shop interior' while 6/12 peers read as 'closed shutter'. No readable signage text, while peers show '৭১৬ | সকল | ১৬৯৩১৯'. No geometric match to nearest peers (max 6 SIFT inliers)."
       }
     ],
     "ranking": [
@@ -139,7 +153,9 @@
       "image_0006.jpg",
       "image_0002.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.77,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_045f93b1",
@@ -174,7 +190,9 @@
       "image_0012.jpg",
       "image_0009.jpg",
       "image_0013.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.808,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_055c59bd",
@@ -190,13 +208,22 @@
       "image_0004.jpg",
       "image_0006.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.738,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_083cd34a",
     "total_images": 9,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0009.jpg",
+        "suspicion_score": 0.6948,
+        "reason": "Median similarity to peers 0.20 vs folder median 0.35 (modified z = -2.5; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. No geometric match to nearest peers (max 4 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.74) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      }
+    ],
     "ranking": [
+      "image_0009.jpg",
       "image_0002.jpg",
       "image_0008.jpg",
       "image_0001.jpg",
@@ -204,9 +231,10 @@
       "image_0003.jpg",
       "image_0004.jpg",
       "image_0007.jpg",
-      "image_0005.jpg",
-      "image_0009.jpg"
-    ]
+      "image_0005.jpg"
+    ],
+    "folder_median_consensus": 0.354,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_08e8ac70",
@@ -228,7 +256,9 @@
       "image_0009.jpg",
       "image_0006.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.771,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_0a2befe6",
@@ -248,7 +278,9 @@
       "image_0012.jpg",
       "image_0006.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.67,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_0af952cd",
@@ -267,7 +299,9 @@
       "image_0006.jpg",
       "image_0004.jpg",
       "image_0003.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.787,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_0c0e85b4",
@@ -291,13 +325,28 @@
       "image_0004.jpg",
       "image_0011.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.739,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_108e6eab",
     "total_images": 21,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0019.jpg",
+        "suspicion_score": 0.5841,
+        "reason": "Median similarity to peers 0.26 vs folder median 0.80 (modified z = -11.4; absolute floor 0.27). Scene reads as 'closed shutter' while 19/20 peers read as 'storefront'. Signage text 'পটুয়াখালী পল্লী ফিস | নগদ | আট' shares 3/6 tokens with outlet signage ('^715-6 | মোঃ | মোঃ'). No geometric match to nearest peers (max 18 SIFT inliers)."
+      },
+      {
+        "file_name": "image_0016.jpg",
+        "suspicion_score": 0.4291,
+        "reason": "Median similarity to peers 0.31 vs folder median 0.80 (modified z = -10.3; absolute floor 0.27). Scene reads as 'closed shutter' while 19/20 peers read as 'storefront'. Signage text 'চাজ | ফ্রি | পটুয়াখালী পল্লী ফিস' shares 3/12 tokens with outlet signage ('^715-6 | মোঃ | মোঃ'). No geometric match to nearest peers (max 23 SIFT inliers)."
+      }
+    ],
     "ranking": [
+      "image_0019.jpg",
+      "image_0016.jpg",
       "image_0018.jpg",
       "image_0011.jpg",
       "image_0021.jpg",
@@ -315,11 +364,11 @@
       "image_0015.jpg",
       "image_0014.jpg",
       "image_0007.jpg",
-      "image_0019.jpg",
-      "image_0016.jpg",
       "image_0017.jpg",
       "image_0006.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.796,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_10c7ca00",
@@ -328,7 +377,7 @@
       {
         "file_name": "image_0013.jpg",
         "suspicion_score": 0.5001,
-        "reason": "Median similarity to peers 0.44 vs folder median 0.72 (modified z = -6.0; absolute floor 0.27). Scene reads as 'street scene' while 8/16 peers read as 'storefront'. Signage text 'PELOA | @UAD)' shares 0/2 tokens with outlet signage ('40 | OFFER | 40%'). No geometric match to nearest peers (max 10 SIFT inliers)."
+        "reason": "Median similarity to peers 0.44 vs folder median 0.72 (modified z = -6.0; absolute floor 0.27). Scene reads as 'street scene' while 8/16 peers read as 'closed shutter'. Signage text 'PELOA | @UAD)' shares 0/2 tokens with outlet signage ('40 | OFFER | 40%'). No geometric match to nearest peers (max 10 SIFT inliers)."
       }
     ],
     "ranking": [
@@ -349,7 +398,9 @@
       "image_0015.jpg",
       "image_0004.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.716,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_11da187e",
@@ -361,7 +412,9 @@
       "image_0001_1.jpg",
       "image_0001.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.571,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_146ab59b",
@@ -410,7 +463,9 @@
       "image_0002.jpg",
       "image_0015.jpg",
       "image_0025.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.799,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_16412021",
@@ -428,7 +483,9 @@
       "image_0003.jpg",
       "image_0002.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.635,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_176ee853",
@@ -442,7 +499,10 @@
     ],
     "ranking": [
       "image_0014.jpg",
+      "image_0009.jpg",
       "image_0008.jpg",
+      "image_0011.jpg",
+      "image_0006.jpg",
       "image_0001.jpg",
       "image_0013.jpg",
       "image_0005.jpg",
@@ -451,28 +511,49 @@
       "image_0003.jpg",
       "image_0004.jpg",
       "image_0012.jpg",
-      "image_0007.jpg",
-      "image_0009.jpg",
-      "image_0006.jpg",
-      "image_0011.jpg"
-    ]
+      "image_0007.jpg"
+    ],
+    "folder_median_consensus": 0.717,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_1a444d86",
     "total_images": 27,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0004_1.jpg",
+        "suspicion_score": 0.794,
+        "reason": "Median similarity to peers 0.25 vs folder median 0.77 (modified z = -12.8; absolute floor 0.27). Same scene type as peers ('storefront') but not the same place. Signage text 'PIRIHE | BRITISH | HONOURLBLE' shares 0/3 tokens with outlet signage ('আউট | আউট | আউট'). No geometric match to nearest peers (max 6 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.69) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.7195,
+        "reason": "Median similarity to peers 0.31 vs folder median 0.77 (modified z = -11.5; absolute floor 0.27). Same scene type as peers ('storefront') but not the same place. Signage text '; | 3 | TOWER:' shares 0/2 tokens with outlet signage ('আউট | আউট | আউট'). No geometric match to nearest peers (max 6 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.68) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.6996,
+        "reason": "Median similarity to peers 0.36 vs folder median 0.77 (modified z = -10.2; absolute floor 0.27). Same scene type as peers ('storefront') but not the same place. Signage text 'ELE' shares 0/1 tokens with outlet signage ('আউট | আউট | আউট'). No geometric match to nearest peers (max 6 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.72) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.398,
+        "reason": "Median similarity to peers 0.47 vs folder median 0.77 (modified z = -7.4; absolute floor 0.27). Same scene type as peers ('storefront') but not the same place. Signage text 'ভ | [ফটোকপি | পিণ্ট' shares 0/8 tokens with outlet signage ('আউট | আউট | আউট'). No geometric match to nearest peers (max 11 SIFT inliers)."
+      }
+    ],
     "ranking": [
+      "image_0004_1.jpg",
+      "image_0001_1.jpg",
+      "image_0003_1.jpg",
       "image_0002_1.jpg",
       "image_0020.jpg",
       "image_0001.jpg",
-      "image_0004_1.jpg",
       "image_0018.jpg",
       "image_0003.jpg",
       "image_0016.jpg",
       "image_0019.jpg",
       "image_0007.jpg",
       "image_0004.jpg",
-      "image_0003_1.jpg",
       "image_0023.jpg",
       "image_0017.jpg",
       "image_0002.jpg",
@@ -486,10 +567,11 @@
       "image_0022.jpg",
       "image_0012.jpg",
       "image_0010.jpg",
-      "image_0001_1.jpg",
       "image_0005.jpg",
       "image_0013.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.77,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_1a4910c8",
@@ -509,6 +591,12 @@
     "ranking": [
       "image_0006.jpg",
       "image_0029.jpg",
+      "image_0028.jpg",
+      "image_0022.jpg",
+      "image_0019.jpg",
+      "image_0024.jpg",
+      "image_0012.jpg",
+      "image_0011.jpg",
       "image_0013.jpg",
       "image_0003.jpg",
       "image_0020.jpg",
@@ -529,14 +617,10 @@
       "image_0008.jpg",
       "image_0009.jpg",
       "image_0010.jpg",
-      "image_0018.jpg",
-      "image_0028.jpg",
-      "image_0012.jpg",
-      "image_0022.jpg",
-      "image_0024.jpg",
-      "image_0019.jpg",
-      "image_0011.jpg"
-    ]
+      "image_0018.jpg"
+    ],
+    "folder_median_consensus": 0.936,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_1aa573b9",
@@ -557,7 +641,9 @@
       "image_0009.jpg",
       "image_0010.jpg",
       "image_0011.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.769,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_1b2b051c",
@@ -572,7 +658,9 @@
       "image_0005.jpg",
       "image_0008.jpg",
       "image_0003.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.623,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_1ce36f39",
@@ -589,12 +677,14 @@
       "image_0012.jpg",
       "image_0014.jpg",
       "image_0013.jpg",
+      "image_0002.jpg",
       "image_0011.jpg",
       "image_0004.jpg",
-      "image_0002.jpg",
       "image_0001.jpg",
       "image_0010.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.672,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_1f28f2e3",
@@ -620,7 +710,9 @@
       "image_0018.jpg",
       "image_0016.jpg",
       "image_0017.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.719,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_256287da",
@@ -634,19 +726,34 @@
       "image_0004.jpg",
       "image_0007.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.72,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_264cdac2",
     "total_images": 5,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.7172,
+        "reason": "Median similarity to peers 0.32 vs folder median 0.57 (modified z = -2.6; absolute floor 0.27). Scene reads as 'storefront' while 3/4 peers read as 'closed shutter'. Signage text 'বিকাশ | ক্যাশ | খাহকারী' shares 7/20 tokens with outlet signage ('এম | এম | ছ'). No geometric match to nearest peers (max 7 SIFT inliers)."
+      },
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.6557,
+        "reason": "Median similarity to peers 0.32 vs folder median 0.57 (modified z = -2.5; absolute floor 0.27). Scene reads as 'storefront' while 3/4 peers read as 'closed shutter'. Signage text 'খুচরা | বিল | ঠখুলুন' shares 7/26 tokens with outlet signage ('এম | এম | ছ'). No geometric match to nearest peers (max 5 SIFT inliers)."
+      }
+    ],
     "ranking": [
+      "image_0002.jpg",
+      "image_0001.jpg",
       "image_0002_1.jpg",
       "image_0003.jpg",
-      "image_0001_1.jpg",
-      "image_0002.jpg",
-      "image_0001.jpg"
-    ]
+      "image_0001_1.jpg"
+    ],
+    "folder_median_consensus": 0.566,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_2790dc54",
@@ -661,7 +768,9 @@
       "image_0008.jpg",
       "image_0005.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.754,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_282fec27",
@@ -679,7 +788,9 @@
       "image_0009.jpg",
       "image_0010.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.828,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_288f9f47",
@@ -720,7 +831,9 @@
       "image_0008.jpg",
       "image_0010.jpg",
       "image_0012.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.746,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_28e3acec",
@@ -728,8 +841,8 @@
     "flagged_images": [
       {
         "file_name": "image_0001_1_1.jpg",
-        "suspicion_score": 0.8612,
-        "reason": "Median similarity to peers 0.07 vs folder median 0.78 (modified z = -8.0; absolute floor 0.27). Scene reads as 'house' while 22/29 peers read as 'storefront'. No readable signage text, while peers show 'AKASH | DigitalTV | AKASH'. No geometric match to nearest peers (max 5 SIFT inliers)."
+        "suspicion_score": 0.7994,
+        "reason": "Median similarity to peers 0.07 vs folder median 0.78 (modified z = -8.0; absolute floor 0.27). Scene reads as 'house' while 22/29 peers read as 'storefront'. No readable signage text, while peers show 'AKASH | DigitalTV | AKASH'. No geometric match to nearest peers (max 4 SIFT inliers)."
       },
       {
         "file_name": "image_0001_1.jpg",
@@ -778,7 +891,9 @@
       "image_0014.jpg",
       "image_0018.jpg",
       "image_0012.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.778,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_29139154",
@@ -796,7 +911,9 @@
       "image_0005.jpg",
       "image_0003.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.802,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_2df55e25",
@@ -808,12 +925,20 @@
       "image_0005.jpg",
       "image_0004.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.421,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_2e2f0c83",
     "total_images": 14,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0009.jpg",
+        "suspicion_score": 0.3894,
+        "reason": "Median similarity to peers 0.40 vs folder median 0.63 (modified z = -3.3; absolute floor 0.27). Scene reads as 'closed shutter' while 8/13 peers read as 'storefront'. Signage text 'ডাবল | হাজারে | হাজার' shares 5/16 tokens with outlet signage ('খুলুন | বিকাশ | ১৪৯৫'). No geometric match to nearest peers (max 24 SIFT inliers)."
+      }
+    ],
     "ranking": [
       "image_0009.jpg",
       "image_0010.jpg",
@@ -829,7 +954,9 @@
       "image_0008.jpg",
       "image_0012.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.631,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_2ed27fc4",
@@ -852,7 +979,9 @@
       "image_0002_1.jpg",
       "image_0006.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.316,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_2fed22e2",
@@ -876,7 +1005,9 @@
       "image_0007.jpg",
       "image_0009.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.698,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_31cc0334",
@@ -897,21 +1028,23 @@
       "image_0008.jpg",
       "image_0012.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.795,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_349bc0a8",
     "total_images": 19,
     "flagged_images": [
       {
-        "file_name": "image_0007.jpg",
-        "suspicion_score": 0.8279,
-        "reason": "Median similarity to peers 0.18 vs folder median 0.76 (modified z = -5.1; absolute floor 0.27). Scene reads as 'closed shutter' while 15/17 peers read as 'storefront'. Signage text 'ঘটার' shares 0/1 tokens with outlet signage ('কন | [১৪৯০ | ^'). No geometric match to nearest peers (max 8 SIFT inliers)."
-      },
-      {
         "file_name": "image_0001_1.jpg",
         "suspicion_score": 0.8133,
         "reason": "Median similarity to peers 0.18 vs folder median 0.76 (modified z = -5.1; absolute floor 0.27). Scene reads as 'closed shutter' while 15/17 peers read as 'storefront'. Signage text 'দোকান | নং-১; | বাদব;' shares 0/5 tokens with outlet signage ('কন | [১৪৯০ | ^'). No geometric match to nearest peers (max 9 SIFT inliers)."
+      },
+      {
+        "file_name": "image_0007.jpg",
+        "suspicion_score": 0.7783,
+        "reason": "Median similarity to peers 0.18 vs folder median 0.76 (modified z = -5.1; absolute floor 0.27). Scene reads as 'closed shutter' while 15/17 peers read as 'storefront'. Signage text 'ঘটার' shares 0/1 tokens with outlet signage ('কন | [১৪৯০ | ^'). No geometric match to nearest peers (max 10 SIFT inliers)."
       },
       {
         "file_name": "image_0002_1.jpg",
@@ -925,8 +1058,8 @@
       }
     ],
     "ranking": [
-      "image_0007.jpg",
       "image_0001_1.jpg",
+      "image_0007.jpg",
       "image_0002_1.jpg",
       "image_0010.jpg",
       "image_0003_1.jpg",
@@ -944,7 +1077,9 @@
       "image_0012.jpg",
       "image_0008.jpg",
       "image_0009.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.765,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_36017925",
@@ -962,7 +1097,9 @@
       "image_0008.jpg",
       "image_0009.jpg",
       "image_0006.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.791,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_36bfbfba",
@@ -977,7 +1114,9 @@
       "image_0006.jpg",
       "image_0007.jpg",
       "image_0008.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.614,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_376cc0f6",
@@ -985,6 +1124,7 @@
     "flagged_images": [],
     "ranking": [
       "image_0004.jpg",
+      "image_0003.jpg",
       "image_0005.jpg",
       "image_0001.jpg",
       "image_0006.jpg",
@@ -992,9 +1132,10 @@
       "image_0010.jpg",
       "image_0007.jpg",
       "image_0008.jpg",
-      "image_0002.jpg",
-      "image_0003.jpg"
-    ]
+      "image_0002.jpg"
+    ],
+    "folder_median_consensus": 0.67,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_3bb172c5",
@@ -1023,7 +1164,9 @@
       "image_0004.jpg",
       "image_0016.jpg",
       "image_0009.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.847,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_3c954cee",
@@ -1036,7 +1179,9 @@
       "image_0005.jpg",
       "image_0002.jpg",
       "image_0003.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.818,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_3cf44c1c",
@@ -1048,7 +1193,9 @@
       "image_0005.jpg",
       "image_0003.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.818,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_3d493e9d",
@@ -1065,7 +1212,9 @@
       "image_0009.jpg",
       "image_0003.jpg",
       "image_0006.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.727,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_3f09815b",
@@ -1078,7 +1227,9 @@
       "image_0001.jpg",
       "image_0003.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.808,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_4057fa9f",
@@ -1090,7 +1241,9 @@
       "image_0001.jpg",
       "image_0002.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.825,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_4369bd99",
@@ -1099,7 +1252,7 @@
       {
         "file_name": "image_0006.jpg",
         "suspicion_score": 0.932,
-        "reason": "Median similarity to peers -0.01 vs folder median 0.52 (modified z = -6.7; absolute floor 0.27). Scene reads as 'poster close-up' while 5/9 peers read as 'storefront'. No readable signage text, while peers show 'ARAFAT | পযন্ত | খুলুন'. No geometric match to nearest peers (max 4 SIFT inliers)."
+        "reason": "Median similarity to peers -0.01 vs folder median 0.52 (modified z = -6.7; absolute floor 0.27). Scene reads as 'poster close-up' while 5/9 peers read as 'storefront'. No readable signage text, while peers show 'ARAFAT | পযন্ত | খুলুন'. No geometric match to nearest peers (max 0 SIFT inliers)."
       }
     ],
     "ranking": [
@@ -1113,7 +1266,9 @@
       "image_0009.jpg",
       "image_0005.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.518,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_459bb23b",
@@ -1128,7 +1283,9 @@
       "image_0001.jpg",
       "image_0007.jpg",
       "image_0003.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.711,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_459c1a69",
@@ -1151,7 +1308,9 @@
       "image_0001.jpg",
       "image_0007.jpg",
       "image_0016.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.739,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_47cf0cdd",
@@ -1185,7 +1344,9 @@
       "image_0014.jpg",
       "image_0007.jpg",
       "image_0016.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.759,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_486748c6",
@@ -1193,13 +1354,13 @@
     "flagged_images": [
       {
         "file_name": "image_0002.jpg",
-        "suspicion_score": 0.8941,
-        "reason": "Median similarity to peers 0.05 vs folder median 0.32 (modified z = -9.4; absolute floor 0.27). Scene reads as 'closed shutter' while 3/4 peers read as 'shop interior'. No readable signage text, while peers show 'করা | বিক্রয় | সুলভ :'. No geometric match to nearest peers (max 6 SIFT inliers)."
+        "suspicion_score": 0.8722,
+        "reason": "Median similarity to peers 0.05 vs folder median 0.32 (modified z = -9.4; absolute floor 0.27). Scene reads as 'closed shutter' while 3/4 peers read as 'shop interior'. No readable signage text, while peers show 'করা | বিক্রয় | সুলভ :'. No geometric match to nearest peers (max 5 SIFT inliers)."
       },
       {
         "file_name": "image_0003.jpg",
-        "suspicion_score": 0.8853,
-        "reason": "Median similarity to peers 0.07 vs folder median 0.32 (modified z = -9.0; absolute floor 0.27). Scene reads as 'closed shutter' while 3/4 peers read as 'shop interior'. No readable signage text, while peers show 'করা | বিক্রয় | সুলভ :'. No geometric match to nearest peers (max 6 SIFT inliers)."
+        "suspicion_score": 0.8004,
+        "reason": "Median similarity to peers 0.07 vs folder median 0.32 (modified z = -9.0; absolute floor 0.27). Scene reads as 'closed shutter' while 3/4 peers read as 'shop interior'. No readable signage text, while peers show 'করা | বিক্রয় | সুলভ :'. No geometric match to nearest peers (max 0 SIFT inliers)."
       }
     ],
     "ranking": [
@@ -1208,7 +1369,9 @@
       "image_0005.jpg",
       "image_0001.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.324,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_4a66821b",
@@ -1227,7 +1390,9 @@
       "image_0010.jpg",
       "image_0009.jpg",
       "image_0012.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.8,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_4ba8e6fb",
@@ -1254,7 +1419,9 @@
       "image_0008.jpg",
       "image_0006.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.627,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_4bbeb21b",
@@ -1289,11 +1456,13 @@
       "image_0008.jpg",
       "image_0012.jpg",
       "image_0003.jpg",
-      "image_0020.jpg",
       "image_0006.jpg",
+      "image_0020.jpg",
       "image_0018.jpg",
       "image_0021.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.777,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_4eaf2e47",
@@ -1309,20 +1478,46 @@
       "image_0003.jpg",
       "image_0004.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.316,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_5234b92a",
     "total_images": 22,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0004_1.jpg",
+        "suspicion_score": 0.8166,
+        "reason": "Median similarity to peers 0.20 vs folder median 0.77 (modified z = -12.7; absolute floor 0.27). Scene reads as 'shop interior' while 13/21 peers read as 'closed shutter'. Signage text 'মাদবর | মোবাঃ ( | elerinari' shares 0/6 tokens with outlet signage ('হাজার | আউটে | [১৪৯০'). No geometric match to nearest peers (max 6 SIFT inliers). 3 other images in this folder resemble it (median similarity 0.82) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.7921,
+        "reason": "Median similarity to peers 0.26 vs folder median 0.77 (modified z = -11.4; absolute floor 0.27). Scene reads as 'storefront' while 13/21 peers read as 'closed shutter'. No readable signage text, while peers show 'হাজার | আউটে | [১৪৯০'. No geometric match to nearest peers (max 6 SIFT inliers). 3 other images in this folder resemble it (median similarity 0.77) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.7662,
+        "reason": "Median similarity to peers 0.24 vs folder median 0.77 (modified z = -11.8; absolute floor 0.27). Scene reads as 'shop interior' while 13/21 peers read as 'closed shutter'. Signage text 'মোবাঃ  | Elerinani Ualli | সদব' shares 0/8 tokens with outlet signage ('হাজার | আউটে | [১৪৯০'). No geometric match to nearest peers (max 5 SIFT inliers). 3 other images in this folder resemble it (median similarity 0.83) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.7364,
+        "reason": "Median similarity to peers 0.30 vs folder median 0.77 (modified z = -10.6; absolute floor 0.27). Scene reads as 'shop interior' while 13/21 peers read as 'closed shutter'. Signage text '[৫s' shares 0/1 tokens with outlet signage ('হাজার | আউটে | [১৪৯০'). No geometric match to nearest peers (max 6 SIFT inliers). 3 other images in this folder resemble it (median similarity 0.75) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      }
+    ],
     "ranking": [
+      "image_0004_1.jpg",
+      "image_0001_1.jpg",
+      "image_0003_1.jpg",
+      "image_0002_1.jpg",
       "image_0009.jpg",
       "image_0005.jpg",
       "image_0002.jpg",
       "image_0011.jpg",
       "image_0016.jpg",
       "image_0010.jpg",
-      "image_0002_1.jpg",
       "image_0006.jpg",
       "image_0003.jpg",
       "image_0012.jpg",
@@ -1334,11 +1529,10 @@
       "image_0017.jpg",
       "image_0007.jpg",
       "image_0001.jpg",
-      "image_0008.jpg",
-      "image_0001_1.jpg",
-      "image_0004_1.jpg",
-      "image_0003_1.jpg"
-    ]
+      "image_0008.jpg"
+    ],
+    "folder_median_consensus": 0.769,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_539b60a1",
@@ -1357,7 +1551,9 @@
       "image_0012.jpg",
       "image_0007.jpg",
       "image_0009.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.784,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_53ea491f",
@@ -1377,7 +1573,9 @@
       "image_0010.jpg",
       "image_0001.jpg",
       "image_0012.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.633,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_5be5b163",
@@ -1391,7 +1589,9 @@
       "image_0005.jpg",
       "image_0003.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.644,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_5c8120ae",
@@ -1419,7 +1619,9 @@
       "image_0008.jpg",
       "image_0015.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.68,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_5d690cb1",
@@ -1443,7 +1645,9 @@
       "image_0010.jpg",
       "image_0002.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.472,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_5edce88b",
@@ -1466,7 +1670,9 @@
       "image_0010.jpg",
       "image_0004.jpg",
       "image_0006.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.473,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_5fb892d3",
@@ -1478,7 +1684,9 @@
       "image_0001.jpg",
       "image_0002.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.523,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_6087824b",
@@ -1506,7 +1714,9 @@
       "image_0006.jpg",
       "image_0010.jpg",
       "image_0013.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.842,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_612f8240",
@@ -1538,14 +1748,25 @@
       "image_0003.jpg",
       "image_0002.jpg",
       "image_0009.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.804,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_63a4bb52",
     "total_images": 13,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.5736,
+        "reason": "Median similarity to peers 0.25 vs folder median 0.65 (modified z = -3.9; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. Signage text '৬ | যায় | মুলয' shares 0/7 tokens with outlet signage ('ই | সেলুন | অমনো'). No geometric match to nearest peers (max 21 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.84) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      }
+    ],
     "ranking": [
+      "image_0002.jpg",
       "image_0006.jpg",
+      "image_0004.jpg",
+      "image_0009.jpg",
       "image_0013.jpg",
       "image_0005.jpg",
       "image_0003.jpg",
@@ -1554,11 +1775,10 @@
       "image_0001.jpg",
       "image_0010.jpg",
       "image_0012.jpg",
-      "image_0008.jpg",
-      "image_0009.jpg",
-      "image_0002.jpg",
-      "image_0004.jpg"
-    ]
+      "image_0008.jpg"
+    ],
+    "folder_median_consensus": 0.654,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_647a174b",
@@ -1574,7 +1794,9 @@
       "image_0003.jpg",
       "image_0009.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.794,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_648ccd9a",
@@ -1582,8 +1804,8 @@
     "flagged_images": [
       {
         "file_name": "image_0002_1.jpg",
-        "suspicion_score": 0.7821,
-        "reason": "Median similarity to peers 0.21 vs folder median 0.56 (modified z = -3.3; absolute floor 0.27). Same scene type as peers ('shop interior') but not the same place. Signage text '১৪৯০ | সিম | 00' shares 0/9 tokens with outlet signage ('101011 | 401275 | com'). No geometric match to nearest peers (max 9 SIFT inliers)."
+        "suspicion_score": 0.8101,
+        "reason": "Median similarity to peers 0.21 vs folder median 0.56 (modified z = -3.3; absolute floor 0.27). Same scene type as peers ('shop interior') but not the same place. Signage text '১৪৯০ | সিম | 00' shares 0/9 tokens with outlet signage ('101011 | 401275 | com'). No geometric match to nearest peers (max 6 SIFT inliers)."
       },
       {
         "file_name": "image_0003_1.jpg",
@@ -1604,7 +1826,9 @@
       "image_0003.jpg",
       "image_0001.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.559,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_66dff2a1",
@@ -1612,8 +1836,8 @@
     "flagged_images": [
       {
         "file_name": "image_0001_1.jpg",
-        "suspicion_score": 0.7641,
-        "reason": "Median similarity to peers 0.28 vs folder median 0.70 (modified z = -7.1; absolute floor 0.27). Same scene type as peers ('storefront') but not the same place. Signage text 'Spoken English] | 50% | রোড' shares 0/22 tokens with outlet signage ('pepsi | আউট | ডাবল'). No geometric match to nearest peers (max 8 SIFT inliers)."
+        "suspicion_score": 0.7026,
+        "reason": "Median similarity to peers 0.28 vs folder median 0.70 (modified z = -7.1; absolute floor 0.27). Same scene type as peers ('storefront') but not the same place. Signage text 'Spoken English] | 50% | রোড' shares 0/22 tokens with outlet signage ('pepsi | আউট | ডাবল'). No geometric match to nearest peers (max 10 SIFT inliers)."
       }
     ],
     "ranking": [
@@ -1635,7 +1859,9 @@
       "image_0007.jpg",
       "image_0015.jpg",
       "image_0013.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.705,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_680cfd33",
@@ -1660,7 +1886,9 @@
       "image_0008.jpg",
       "image_0002_1.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.309,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_68bc17a7",
@@ -1703,7 +1931,9 @@
       "image_0007.jpg",
       "image_0024.jpg",
       "image_0018.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.79,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_6aa59f2b",
@@ -1766,7 +1996,9 @@
       "image_0030.jpg",
       "image_0004.jpg",
       "image_0022.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.426,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_6b2080bc",
@@ -1774,8 +2006,8 @@
     "flagged_images": [
       {
         "file_name": "image_0003.jpg",
-        "suspicion_score": 0.8739,
-        "reason": "Median similarity to peers 0.10 vs folder median 0.49 (modified z = -7.6; absolute floor 0.27). Scene reads as 'shop interior' while 2/5 peers read as 'closed shutter'. No readable signage text, while peers show 'হেড | হেড | CHINESE'. No geometric match to nearest peers (max 5 SIFT inliers)."
+        "suspicion_score": 0.8165,
+        "reason": "Median similarity to peers 0.10 vs folder median 0.49 (modified z = -7.6; absolute floor 0.27). Scene reads as 'shop interior' while 2/5 peers read as 'closed shutter'. No readable signage text, while peers show 'হেড | হেড | CHINESE'. No geometric match to nearest peers (max 4 SIFT inliers)."
       }
     ],
     "ranking": [
@@ -1785,7 +2017,9 @@
       "image_0002.jpg",
       "image_0006.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.488,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_6cd2f45a",
@@ -1804,7 +2038,9 @@
       "image_0005.jpg",
       "image_0006.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.876,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_6df6bcc9",
@@ -1816,22 +2052,32 @@
       "image_0003.jpg",
       "image_0005.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.597,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_70f9bde3",
     "total_images": 8,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0007.jpg",
+        "suspicion_score": 0.5559,
+        "reason": "Median similarity to peers 0.26 vs folder median 0.73 (modified z = -6.6; absolute floor 0.27). Scene reads as 'closed shutter' while 2/7 peers read as 'storefront'. Signage text '0১৭১০ ২০৯৯৯৫ | প্রোঃতজয় লল | ফামেছ/' shares 2/5 tokens with outlet signage ('এসএমসি | লাল আচার্য্য | অজয়'). No geometric match to nearest peers (max 21 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.81) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      }
+    ],
     "ranking": [
+      "image_0007.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
       "image_0003.jpg",
       "image_0004.jpg",
       "image_0002.jpg",
       "image_0006.jpg",
-      "image_0008.jpg",
-      "image_0001.jpg",
-      "image_0007.jpg",
-      "image_0005.jpg"
-    ]
+      "image_0008.jpg"
+    ],
+    "folder_median_consensus": 0.725,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_7109ee18",
@@ -1856,7 +2102,9 @@
       "image_0008.jpg",
       "image_0018.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.802,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_731b30e0",
@@ -1869,7 +2117,9 @@
       "image_0001.jpg",
       "image_0002.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.488,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_74d4383f",
@@ -1883,7 +2133,9 @@
       "image_0006.jpg",
       "image_0003.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.577,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_76e418b9",
@@ -1910,7 +2162,9 @@
       "image_0001.jpg",
       "image_0005.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.501,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_777f9297",
@@ -1936,7 +2190,9 @@
       "image_0002.jpg",
       "image_0001.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.862,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_782744b7",
@@ -1950,7 +2206,9 @@
       "image_0001.jpg",
       "image_0004.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.625,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_7b0d7e5d",
@@ -1967,7 +2225,9 @@
       "image_0005.jpg",
       "image_0003.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.501,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_7d7b1abc",
@@ -2005,7 +2265,9 @@
       "image_0010.jpg",
       "image_0020.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.8,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_7f1dd575",
@@ -2028,7 +2290,9 @@
       "image_0007.jpg",
       "image_0004.jpg",
       "image_0003.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.6,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_8033796b",
@@ -2047,7 +2311,9 @@
       "image_0005.jpg",
       "image_0007.jpg",
       "image_0008.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.873,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_817272f8",
@@ -2059,7 +2325,9 @@
       "image_0004.jpg",
       "image_0005.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.851,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_827dd729",
@@ -2067,13 +2335,13 @@
     "flagged_images": [
       {
         "file_name": "image_0001_1.jpg",
-        "suspicion_score": 0.8848,
-        "reason": "Median similarity to peers 0.15 vs folder median 0.82 (modified z = -18.3; absolute floor 0.27). Scene reads as 'closed shutter' while 5/13 peers read as 'shop interior'. Signage text '[[ | sursik | ভাঃ @ঃ' shares 0/7 tokens with outlet signage ('নিউ | CER | ং'). No geometric match to nearest peers (max 8 SIFT inliers)."
+        "suspicion_score": 0.8878,
+        "reason": "Median similarity to peers 0.15 vs folder median 0.82 (modified z = -18.3; absolute floor 0.27). Scene reads as 'closed shutter' while 5/13 peers read as 'shop interior'. Signage text '[[ | sursik | ভাঃ @ঃ' shares 0/7 tokens with outlet signage ('নিউ | CER | ং'). No geometric match to nearest peers (max 6 SIFT inliers)."
       },
       {
         "file_name": "image_0003.jpg",
-        "suspicion_score": 0.6511,
-        "reason": "Median similarity to peers 0.21 vs folder median 0.82 (modified z = -16.6; absolute floor 0.27). Scene reads as 'storefront' while 5/13 peers read as 'shop interior'. Signage text 'প | ঢাকা | IONNO' shares 0/3 tokens with outlet signage ('নিউ | CER | ং'). No geometric match to nearest peers (max 14 SIFT inliers)."
+        "suspicion_score": 0.6281,
+        "reason": "Median similarity to peers 0.21 vs folder median 0.82 (modified z = -16.6; absolute floor 0.27). Scene reads as 'storefront' while 5/13 peers read as 'shop interior'. Signage text 'প | ঢাকা | IONNO' shares 0/3 tokens with outlet signage ('নিউ | CER | ং'). No geometric match to nearest peers (max 17 SIFT inliers)."
       }
     ],
     "ranking": [
@@ -2091,7 +2359,9 @@
       "image_0009.jpg",
       "image_0013.jpg",
       "image_0010.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.823,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_830a6674",
@@ -2133,7 +2403,9 @@
       "image_0005.jpg",
       "image_0010.jpg",
       "image_0003.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.651,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_830ca989",
@@ -2159,7 +2431,9 @@
       "image_0004.jpg",
       "image_0012.jpg",
       "image_0016.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.83,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_8543b5b4",
@@ -2182,7 +2456,9 @@
       "image_0001.jpg",
       "image_0002.jpg",
       "image_0003.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.798,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_867ffca6",
@@ -2204,7 +2480,9 @@
       "image_0014.jpg",
       "image_0011.jpg",
       "image_0012.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.82,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_875df2f2",
@@ -2224,7 +2502,9 @@
       "image_0011.jpg",
       "image_0002.jpg",
       "image_0010.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.718,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_89fe040d",
@@ -2257,6 +2537,7 @@
       "image_0008.jpg",
       "image_0006.jpg",
       "image_0011.jpg",
+      "image_0004.jpg",
       "image_0009.jpg",
       "image_0016.jpg",
       "image_0010.jpg",
@@ -2266,6 +2547,7 @@
       "image_0013.jpg",
       "image_0005.jpg",
       "image_0022.jpg",
+      "image_0003.jpg",
       "image_0017.jpg",
       "image_0014.jpg",
       "image_0024.jpg",
@@ -2274,10 +2556,10 @@
       "image_0021.jpg",
       "image_0015.jpg",
       "image_0018.jpg",
-      "image_0020.jpg",
-      "image_0004.jpg",
-      "image_0003.jpg"
-    ]
+      "image_0020.jpg"
+    ],
+    "folder_median_consensus": 0.799,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_8c4b499e",
@@ -2291,9 +2573,11 @@
       "image_0009.jpg",
       "image_0008.jpg",
       "image_0001.jpg",
-      "image_0006.jpg",
-      "image_0002.jpg"
-    ]
+      "image_0002.jpg",
+      "image_0006.jpg"
+    ],
+    "folder_median_consensus": 0.728,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_8cae84d2",
@@ -2308,12 +2592,20 @@
       "image_0002.jpg",
       "image_0007.jpg",
       "image_0008.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.81,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_927fbbbb",
     "total_images": 8,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.8249,
+        "reason": "Median similarity to peers 0.10 vs folder median 0.45 (modified z = -2.1; absolute floor 0.27). Scene reads as 'closed shutter' while 4/7 peers read as 'storefront'. No readable signage text, while peers show 'নিউ | পথ | পথ'. No geometric match to nearest peers (max 4 SIFT inliers)."
+      }
+    ],
     "ranking": [
       "image_0002_1.jpg",
       "image_0006.jpg",
@@ -2323,7 +2615,9 @@
       "image_0004.jpg",
       "image_0003.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.448,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_9486512c",
@@ -2338,7 +2632,9 @@
       "image_0001.jpg",
       "image_0004.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.79,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_94a1339f",
@@ -2357,7 +2653,9 @@
       "image_0010.jpg",
       "image_0007.jpg",
       "image_0011.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.574,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_95569b27",
@@ -2375,7 +2673,9 @@
       "image_0009.jpg",
       "image_0005.jpg",
       "image_0003.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.839,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_956b57b6",
@@ -2389,7 +2689,9 @@
       "image_0004.jpg",
       "image_0002.jpg",
       "image_0006.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.75,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_9587ffc0",
@@ -2408,12 +2710,24 @@
       "image_0010.jpg",
       "image_0009.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.8,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_96903c66",
     "total_images": 18,
     "flagged_images": [
+      {
+        "file_name": "image_0018.jpg",
+        "suspicion_score": 0.8751,
+        "reason": "Median similarity to peers 0.14 vs folder median 0.46 (modified z = -6.5; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. No readable signage text, while peers show '01735 | 01920- | -667772'. No geometric match to nearest peers (max 5 SIFT inliers). 3 other images in this folder resemble it (median similarity 0.78) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0017.jpg",
+        "suspicion_score": 0.6006,
+        "reason": "Median similarity to peers 0.24 vs folder median 0.46 (modified z = -4.4; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. No readable signage text, while peers show '01735 | 01920- | -667772'. No geometric match to nearest peers (max 19 SIFT inliers). 3 other images in this folder resemble it (median similarity 0.80) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
       {
         "file_name": "image_0002.jpg",
         "suspicion_score": 0.3,
@@ -2441,6 +2755,8 @@
       }
     ],
     "ranking": [
+      "image_0018.jpg",
+      "image_0017.jpg",
       "image_0002.jpg",
       "image_0004.jpg",
       "image_0006.jpg",
@@ -2453,13 +2769,13 @@
       "image_0016.jpg",
       "image_0001.jpg",
       "image_0012.jpg",
+      "image_0013.jpg",
       "image_0015.jpg",
       "image_0010.jpg",
-      "image_0007.jpg",
-      "image_0018.jpg",
-      "image_0017.jpg",
-      "image_0013.jpg"
-    ]
+      "image_0007.jpg"
+    ],
+    "folder_median_consensus": 0.459,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_9c031b9b",
@@ -2467,26 +2783,31 @@
     "flagged_images": [
       {
         "file_name": "image_0003_1.jpg",
-        "suspicion_score": 0.8513,
-        "reason": "Median similarity to peers 0.13 vs folder median 0.71 (modified z = -13.2; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. Signage text '01852-470162 | 01707-398776 | প্রোঃ' shares 0/12 tokens with outlet signage ('MYMENSINGH | CHAMPIONS | ৫০ জন'). No geometric match to nearest peers (max 11 SIFT inliers)."
+        "suspicion_score": 0.9091,
+        "reason": "Median similarity to peers 0.13 vs folder median 0.71 (modified z = -13.2; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. Signage text '01852-470162 | 01707-398776 | প্রোঃ' shares 0/12 tokens with outlet signage ('MYMENSINGH | CHAMPIONS | ৫০ জন'). No geometric match to nearest peers (max 7 SIFT inliers)."
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.8901,
+        "reason": "Median similarity to peers 0.11 vs folder median 0.71 (modified z = -13.7; absolute floor 0.27). Scene reads as 'storefront' while 10/18 peers read as 'closed shutter'. Signage text 'মা | বৈশাখী | প্রোঃ' shares 0/15 tokens with outlet signage ('MYMENSINGH | CHAMPIONS | ৫০ জন'). No geometric match to nearest peers (max 9 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.65) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.7981,
+        "reason": "Median similarity to peers 0.24 vs folder median 0.71 (modified z = -10.8; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. Signage text 'বা | প্যান্ট, | ফতুয়া' shares 0/8 tokens with outlet signage ('MYMENSINGH | CHAMPIONS | ৫০ জন'). No geometric match to nearest peers (max 8 SIFT inliers)."
       },
       {
         "file_name": "image_0004_1.jpg",
         "suspicion_score": 0.7718,
         "reason": "Median similarity to peers 0.28 vs folder median 0.71 (modified z = -9.8; absolute floor 0.27). Scene reads as 'storefront' while 10/18 peers read as 'closed shutter'. No readable signage text, while peers show 'MYMENSINGH | CHAMPIONS | ৫০ জন'. No geometric match to nearest peers (max 7 SIFT inliers)."
-      },
-      {
-        "file_name": "image_0002_1.jpg",
-        "suspicion_score": 0.7425,
-        "reason": "Median similarity to peers 0.24 vs folder median 0.71 (modified z = -10.8; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. Signage text 'বা | প্যান্ট, | ফতুয়া' shares 0/8 tokens with outlet signage ('MYMENSINGH | CHAMPIONS | ৫০ জন'). No geometric match to nearest peers (max 10 SIFT inliers)."
       }
     ],
     "ranking": [
       "image_0003_1.jpg",
-      "image_0004_1.jpg",
-      "image_0002_1.jpg",
-      "image_0012.jpg",
       "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0004_1.jpg",
+      "image_0012.jpg",
       "image_0004.jpg",
       "image_0006.jpg",
       "image_0013.jpg",
@@ -2501,7 +2822,9 @@
       "image_0010.jpg",
       "image_0001.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.706,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_9e5d2ebe",
@@ -2523,12 +2846,19 @@
       "image_0001.jpg",
       "image_0004.jpg",
       "image_0008.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.803,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_9f1d1b48",
     "total_images": 22,
     "flagged_images": [
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.5719,
+        "reason": "Median similarity to peers 0.09 vs folder median 0.50 (modified z = -2.1; absolute floor 0.27). Scene reads as 'poster close-up' while 12/20 peers read as 'storefront'. Signage text '১১০১৯৫ | ক্যাশ আউট | কাশ' shares 6/15 tokens with outlet signage ('চাজ | কাশ | হাজার'). No geometric match to nearest peers (max 32 SIFT inliers). 3 other images in this folder resemble it (median similarity 0.73) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
       {
         "file_name": "image_0005.jpg",
         "suspicion_score": 0.3,
@@ -2558,7 +2888,9 @@
       "image_0012.jpg",
       "image_0013.jpg",
       "image_0015.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.499,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_aa2e6f06",
@@ -2578,40 +2910,70 @@
       "image_0005.jpg",
       "image_0001.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.524,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_aa55187a",
     "total_images": 15,
     "flagged_images": [
       {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.8083,
+        "reason": "Median similarity to peers 0.22 vs folder median 0.70 (modified z = -5.0; absolute floor 0.27). Scene reads as 'street scene' while 13/14 peers read as 'closed shutter'. No readable signage text, while peers show 'হাজার | AHAD GADGET | AHAD GAD'. No geometric match to nearest peers (max 6 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.82) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0001_1_1.jpg",
+        "suspicion_score": 0.7443,
+        "reason": "Median similarity to peers 0.17 vs folder median 0.70 (modified z = -5.4; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. No readable signage text, while peers show 'হাজার | AHAD GADGET | AHAD GAD'. No geometric match to nearest peers (max 4 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.82) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
         "file_name": "image_0003_1.jpg",
-        "suspicion_score": 0.7038,
-        "reason": "Median similarity to peers 0.38 vs folder median 0.70 (modified z = -3.3; absolute floor 0.27). Scene reads as 'restaurant' while 13/14 peers read as 'closed shutter'. No readable signage text, while peers show 'হাজার | AHAD GADGET | AHAD GAD'. No geometric match to nearest peers (max 6 SIFT inliers)."
+        "suspicion_score": 0.6576,
+        "reason": "Median similarity to peers 0.38 vs folder median 0.70 (modified z = -3.3; absolute floor 0.27). Scene reads as 'restaurant' while 13/14 peers read as 'closed shutter'. No readable signage text, while peers show 'হাজার | AHAD GADGET | AHAD GAD'. No geometric match to nearest peers (max 5 SIFT inliers)."
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.6243,
+        "reason": "Median similarity to peers 0.36 vs folder median 0.70 (modified z = -3.5; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. Signage text 'মেলীী ২৪ | পেমেন্ট বিকাশ করুন | সুপীর শপ' shares 1/18 tokens with outlet signage ('হাজার | AHAD GADGET | AHAD GAD'). No geometric match to nearest peers (max 10 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.71) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
       }
     ],
     "ranking": [
+      "image_0002_1.jpg",
+      "image_0001_1_1.jpg",
       "image_0003_1.jpg",
+      "image_0001_1.jpg",
       "image_0004.jpg",
       "image_0006.jpg",
       "image_0011.jpg",
       "image_0002.jpg",
       "image_0007.jpg",
       "image_0001.jpg",
-      "image_0001_1.jpg",
       "image_0010.jpg",
       "image_0003.jpg",
       "image_0008.jpg",
       "image_0009.jpg",
-      "image_0005.jpg",
-      "image_0001_1_1.jpg",
-      "image_0002_1.jpg"
-    ]
+      "image_0005.jpg"
+    ],
+    "folder_median_consensus": 0.704,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_aa9c72d7",
     "total_images": 20,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0005.jpg",
+        "suspicion_score": 0.9053,
+        "reason": "Median similarity to peers 0.10 vs folder median 0.82 (modified z = -19.7; absolute floor 0.27). Scene reads as 'poster close-up' while 13/19 peers read as 'storefront'. Signage text '৯৫ | ১১৩) | হাজার' shares 2/11 tokens with outlet signage ('১৪৯০ | ইন্টারনেট | ক্যাশ'). No geometric match to nearest peers (max 7 SIFT inliers)."
+      },
+      {
+        "file_name": "image_0006.jpg",
+        "suspicion_score": 0.8229,
+        "reason": "Median similarity to peers 0.17 vs folder median 0.82 (modified z = -17.9; absolute floor 0.27). Scene reads as 'poster close-up' while 13/19 peers read as 'storefront'. Signage text '01959 | 127 | ১০' shares 0/4 tokens with outlet signage ('১৪৯০ | ইন্টারনেট | ক্যাশ'). No geometric match to nearest peers (max 5 SIFT inliers)."
+      }
+    ],
     "ranking": [
       "image_0005.jpg",
       "image_0006.jpg",
@@ -2633,7 +2995,9 @@
       "image_0010.jpg",
       "image_0007.jpg",
       "image_0019.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.816,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ab1e8a98",
@@ -2650,7 +3014,9 @@
       "image_0002.jpg",
       "image_0005.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.633,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_abd3f7bb",
@@ -2659,7 +3025,7 @@
       {
         "file_name": "image_0001.jpg",
         "suspicion_score": 0.7755,
-        "reason": "Median similarity to peers 0.16 vs folder median 0.50 (modified z = -4.2; absolute floor 0.27). Scene reads as 'closed shutter' while 3/6 peers read as 'storefront'. Signage text 'আল-আমিন - ১১৭৫৪-১৯২৭' shares 0/4 tokens with outlet signage ('১৪৯০ | 450 | বিক্রয়'). No geometric match to nearest peers (max 4 SIFT inliers)."
+        "reason": "Median similarity to peers 0.16 vs folder median 0.50 (modified z = -4.2; absolute floor 0.27). Scene reads as 'closed shutter' while 3/6 peers read as 'storefront'. Signage text 'আল-আমিন - ১১৭৫৪-১৯২৭' shares 0/4 tokens with outlet signage ('১৪৯০ | 450 | বিক্রয়'). No geometric match to nearest peers (max 0 SIFT inliers)."
       },
       {
         "file_name": "image_0004.jpg",
@@ -2682,7 +3048,9 @@
       "image_0002.jpg",
       "image_0005.jpg",
       "image_0003.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.5,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ac1973a7",
@@ -2701,20 +3069,30 @@
       "image_0009.jpg",
       "image_0010.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.77,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ac589c16",
     "total_images": 6,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.8088,
+        "reason": "Median similarity to peers 0.24 vs folder median 0.39 (modified z = -10.0; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. No readable signage text, while peers show 'সুপর | মতর | ৪১৯৭৯৮'. No geometric match to nearest peers (max 7 SIFT inliers)."
+      }
+    ],
     "ranking": [
+      "image_0002.jpg",
       "image_0006.jpg",
       "image_0001.jpg",
       "image_0003.jpg",
       "image_0005.jpg",
-      "image_0004.jpg",
-      "image_0002.jpg"
-    ]
+      "image_0004.jpg"
+    ],
+    "folder_median_consensus": 0.39,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_ac5f17a2",
@@ -2761,26 +3139,46 @@
       "image_0039.jpg",
       "image_0020.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.808,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ac904859",
     "total_images": 12,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.7153,
+        "reason": "Median similarity to peers 0.31 vs folder median 0.78 (modified z = -6.7; absolute floor 0.27). Same scene type as peers ('storefront') but not the same place. Signage text 'LICL | পেমেন্ট | IlP' shares 0/3 tokens with outlet signage ('নিবাশ | হাজার | ১৪৯৫'). No geometric match to nearest peers (max 8 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.69) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.7033,
+        "reason": "Median similarity to peers 0.32 vs folder median 0.78 (modified z = -6.5; absolute floor 0.27). Scene reads as 'shop interior' while 8/11 peers read as 'storefront'. No readable signage text, while peers show 'নিবাশ | হাজার | ১৪৯৫'. No geometric match to nearest peers (max 6 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.70) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.6276,
+        "reason": "Median similarity to peers 0.38 vs folder median 0.78 (modified z = -5.6; absolute floor 0.27). Same scene type as peers ('storefront') but not the same place. No readable signage text, while peers show 'নিবাশ | হাজার | ১৪৯৫'. No geometric match to nearest peers (max 10 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.78) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      }
+    ],
     "ranking": [
-      "image_0004.jpg",
       "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0003_1.jpg",
+      "image_0004.jpg",
       "image_0008.jpg",
       "image_0006.jpg",
       "image_0007.jpg",
       "image_0001.jpg",
       "image_0005.jpg",
       "image_0002.jpg",
-      "image_0002_1.jpg",
       "image_0009.jpg",
-      "image_0003.jpg",
-      "image_0003_1.jpg"
-    ]
+      "image_0003.jpg"
+    ],
+    "folder_median_consensus": 0.778,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_acf74822",
@@ -2802,7 +3200,9 @@
       "image_0011.jpg",
       "image_0009.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.599,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ad9690eb",
@@ -2826,7 +3226,9 @@
       "image_0004.jpg",
       "image_0003.jpg",
       "image_0008.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.727,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_aeaf0389",
@@ -2845,7 +3247,9 @@
       "image_0006.jpg",
       "image_0003.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.681,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_b2d035ee",
@@ -2873,7 +3277,9 @@
       "image_0010.jpg",
       "image_0014.jpg",
       "image_0013.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.805,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_b6409886",
@@ -2901,7 +3307,9 @@
       "image_0007.jpg",
       "image_0004.jpg",
       "image_0003.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.83,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ba2e645b",
@@ -2922,7 +3330,9 @@
       "image_0008.jpg",
       "image_0010.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.796,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_bb8db053",
@@ -2953,7 +3363,9 @@
       "image_0012.jpg",
       "image_0004.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.634,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_c0381d55",
@@ -2968,7 +3380,9 @@
       "image_0003.jpg",
       "image_0008.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.522,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_c2181b07",
@@ -2999,22 +3413,42 @@
       "image_0003.jpg",
       "image_0011.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.733,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_c2fefbb3",
     "total_images": 8,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.8227,
+        "reason": "Median similarity to peers 0.19 vs folder median 0.58 (modified z = -6.4; absolute floor 0.27). Scene reads as 'closed shutter' while 3/7 peers read as 'shop interior'. No readable signage text, while peers show 'নগর | 01 | মাহাদী'. No geometric match to nearest peers (max 6 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.77) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.7215,
+        "reason": "Median similarity to peers 0.29 vs folder median 0.58 (modified z = -4.8; absolute floor 0.27). Scene reads as 'closed shutter' while 3/7 peers read as 'shop interior'. Signage text 'পি | ডি | এস,' shares 0/18 tokens with outlet signage ('নগর | 01 | মাহাদী'). No geometric match to nearest peers (max 9 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.79) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      },
+      {
+        "file_name": "image_0008.jpg",
+        "suspicion_score": 0.4731,
+        "reason": "Median similarity to peers 0.25 vs folder median 0.58 (modified z = -5.4; absolute floor 0.27). Scene reads as 'closed shutter' while 3/7 peers read as 'shop interior'. Signage text 'শাকিল | 016 | স্টোর' shares 3/5 tokens with outlet signage ('নগর | 01 | মাহাদী'). No geometric match to nearest peers (max 27 SIFT inliers). 2 other images in this folder resemble it (median similarity 0.82) but none of them matches the rest of the folder either: a coherent group that is foreign as a whole."
+      }
+    ],
     "ranking": [
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
       "image_0002.jpg",
       "image_0005.jpg",
       "image_0007.jpg",
       "image_0004.jpg",
-      "image_0006.jpg",
-      "image_0001.jpg",
-      "image_0003.jpg",
-      "image_0008.jpg"
-    ]
+      "image_0006.jpg"
+    ],
+    "folder_median_consensus": 0.576,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_c3b06be2",
@@ -3030,7 +3464,9 @@
       "image_0004.jpg",
       "image_0008.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.625,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_c41e54d1",
@@ -3058,7 +3494,9 @@
       "image_0006.jpg",
       "image_0007.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.817,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_c45b06f5",
@@ -3066,8 +3504,8 @@
     "flagged_images": [
       {
         "file_name": "image_0007.jpg",
-        "suspicion_score": 0.5842,
-        "reason": "Median similarity to peers 0.23 vs folder median 0.61 (modified z = -3.7; absolute floor 0.27). Scene reads as 'closed shutter' while 8/12 peers read as 'storefront'. Signage text '@ | & | ঘর' shares 0/22 tokens with outlet signage ('এণ্ড | [ | ৪>'). No geometric match to nearest peers (max 21 SIFT inliers)."
+        "suspicion_score": 0.7996,
+        "reason": "Median similarity to peers 0.23 vs folder median 0.61 (modified z = -3.7; absolute floor 0.27). Scene reads as 'closed shutter' while 8/12 peers read as 'storefront'. Signage text '@ | & | ঘর' shares 0/22 tokens with outlet signage ('এণ্ড | [ | ৪>'). No geometric match to nearest peers (max 8 SIFT inliers)."
       }
     ],
     "ranking": [
@@ -3084,7 +3522,9 @@
       "image_0009.jpg",
       "image_0006.jpg",
       "image_0012.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.606,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_c816ff76",
@@ -3110,7 +3550,9 @@
       "image_0003.jpg",
       "image_0004.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.665,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_c9465127",
@@ -3139,7 +3581,9 @@
       "image_0008.jpg",
       "image_0011.jpg",
       "image_0006.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.738,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ccbf4451",
@@ -3155,7 +3599,9 @@
       "image_0008.jpg",
       "image_0006.jpg",
       "image_0009.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.595,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_cf8dc0e2",
@@ -3164,7 +3610,7 @@
       {
         "file_name": "image_0002_1.jpg",
         "suspicion_score": 0.7126,
-        "reason": "Median similarity to peers 0.16 vs folder median 0.63 (modified z = -4.9; absolute floor 0.27). Scene reads as 'closed shutter' while 4/10 peers read as 'restaurant'. No readable signage text, while peers show 'জ | জ | জ'. No geometric match to nearest peers (max 17 SIFT inliers)."
+        "reason": "Median similarity to peers 0.16 vs folder median 0.63 (modified z = -4.9; absolute floor 0.27). Same scene type as peers ('closed shutter') but not the same place. No readable signage text, while peers show 'জ | জ | জ'. No geometric match to nearest peers (max 17 SIFT inliers)."
       },
       {
         "file_name": "image_0001_1.jpg",
@@ -3184,7 +3630,9 @@
       "image_0006.jpg",
       "image_0007.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.634,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_d1358ee8",
@@ -3197,7 +3645,9 @@
       "image_0004.jpg",
       "image_0002.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.855,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_d24e34d8",
@@ -3210,7 +3660,9 @@
       "image_0005.jpg",
       "image_0002.jpg",
       "image_0006.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.606,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_d301c743",
@@ -3223,12 +3675,20 @@
       "image_0005.jpg",
       "image_0004.jpg",
       "image_0006.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.563,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_d371a9c7",
     "total_images": 6,
-    "flagged_images": [],
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.3506,
+        "reason": "Median similarity to peers 0.44 vs folder median 0.62 (modified z = -8.5; absolute floor 0.27). Scene reads as 'closed shutter' while 3/5 peers read as 'shop interior'. Signage text 'বিকাশ | পযন্ত | ১৪১৫' shares 7/15 tokens with outlet signage ('১ | ১৪৯৫ | ১৪৯০'). No geometric match to nearest peers (max 20 SIFT inliers)."
+      }
+    ],
     "ranking": [
       "image_0002.jpg",
       "image_0003.jpg",
@@ -3236,7 +3696,9 @@
       "image_0005.jpg",
       "image_0006.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.619,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_d41a1422",
@@ -3251,7 +3713,9 @@
       "image_0004.jpg",
       "image_0002.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.501,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_d5d1af09",
@@ -3265,7 +3729,9 @@
       "image_0007.jpg",
       "image_0005.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.734,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_d8c2f00a",
@@ -3284,7 +3750,9 @@
       "image_0003.jpg",
       "image_0001.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.349,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_d993a28a",
@@ -3324,7 +3792,9 @@
       "image_0007.jpg",
       "image_0025.jpg",
       "image_0020.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.625,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_db0cff8a",
@@ -3347,7 +3817,9 @@
       "image_0016.jpg",
       "image_0007.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.682,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_de743a96",
@@ -3365,7 +3837,9 @@
       "image_0005.jpg",
       "image_0010.jpg",
       "image_0006.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.534,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_def72cf4",
@@ -3398,7 +3872,9 @@
       "image_0002.jpg",
       "image_0006.jpg",
       "image_0008.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.744,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_e1278646",
@@ -3424,7 +3900,9 @@
       "image_0004.jpg",
       "image_0006.jpg",
       "image_0008.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.576,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_e181d85d",
@@ -3449,7 +3927,9 @@
       "image_0001.jpg",
       "image_0009.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.605,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_e3490c34",
@@ -3469,7 +3949,9 @@
       "image_0002.jpg",
       "image_0012.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.715,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_e72326eb",
@@ -3493,7 +3975,9 @@
       "image_0003.jpg",
       "image_0006.jpg",
       "image_0015.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.738,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_e9f9a70d",
@@ -3522,7 +4006,9 @@
       "image_0011.jpg",
       "image_0015.jpg",
       "image_0007.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.736,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ec938d8d",
@@ -3539,7 +4025,9 @@
       "image_0008.jpg",
       "image_0006.jpg",
       "image_0009.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.212,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_ed090717",
@@ -3555,7 +4043,9 @@
       "image_0007.jpg",
       "image_0009.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.425,
+    "review_folder": true
   },
   {
     "outlet_id": "outlet_eef1223c",
@@ -3589,7 +4079,9 @@
       "image_0006.jpg",
       "image_0002.jpg",
       "image_0009.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.788,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ef7a091c",
@@ -3608,7 +4100,9 @@
       "image_0002.jpg",
       "image_0001.jpg",
       "image_0005.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.786,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_f02e170e",
@@ -3621,7 +4115,9 @@
       "image_0003.jpg",
       "image_0006.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.822,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_f55150ab",
@@ -3644,7 +4140,9 @@
       "image_0006.jpg",
       "image_0008.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.724,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_f5ebfe3f",
@@ -3660,7 +4158,9 @@
       "image_0007.jpg",
       "image_0008.jpg",
       "image_0004.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.647,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_f8b4c480",
@@ -3680,7 +4180,9 @@
       "image_0007.jpg",
       "image_0012.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.788,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_fe059a3c",
@@ -3710,7 +4212,9 @@
       "image_0009.jpg",
       "image_0007.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.659,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ff5c6fd3",
@@ -3727,7 +4231,9 @@
       "image_0003.jpg",
       "image_0007.jpg",
       "image_0002.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.529,
+    "review_folder": false
   },
   {
     "outlet_id": "outlet_ffb4b10a",
@@ -3741,6 +4247,8 @@
       "image_0005.jpg",
       "image_0006.jpg",
       "image_0001.jpg"
-    ]
+    ],
+    "folder_median_consensus": 0.857,
+    "review_folder": false
   }
 ]
