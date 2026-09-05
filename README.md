@@ -1,8 +1,16 @@
 # outlet-audit — suspicious outlet-photo detection
 
-Flags images in each outlet folder that do not belong to that outlet's photo history, with a
-calibrated `suspicion_score` in [0, 1] and an evidence-based reason. Method summary and numbers:
-[WRITEUP.md](WRITEUP.md).
+Field agents photograph mobile-recharge outlets to prove a visit happened. Some cut corners and
+upload a photo of a different shop, an old picture, or something unrelated, just to close the task.
+Buried in thousands of legitimate images, those fakes are impractical to catch by hand.
+
+Given one folder per outlet holding all photos ever taken there (no timestamps, no visit order),
+this tool flags the images that do not belong to that outlet's photo history, with a calibrated
+`suspicion_score` in [0, 1] and an evidence-based reason, so a reviewer looks at a few images
+instead of all of them. Method summary and numbers: [WRITEUP.md](WRITEUP.md).
+
+Input `dataset/outlet_<id>/image_*.jpg`; this dataset is 159 outlets, 2,042 photos, 5-40 per folder.
+Output is one record per outlet, including outlets with nothing flagged.
 
 Pipeline: DINOv2 self-supervised ViT embeddings → per-image median pairwise cosine to folder peers
 → dual gate (MAD modified z-score **and** a similarity floor calibrated without labels from
@@ -77,7 +85,7 @@ flags 61 are not the outlet, 18 are the same shop (shutter down / interior / clo
 0.64 strict, 0.81 counting undecidable as correct; 61 of the 91 foreign images the audit could confirm are caught
 (recall 0.67). Full tables: `results/eval_*.json`, contact sheet: `results/report.html`.
 
-**Gate fix (2026-09-05).** The first run (61 content flags; precision 0.62, recall 0.47 on the same audit) missed
+The first run (61 content flags; precision 0.62, recall 0.47 on the same audit) missed
 groups of 3–4 photos of one wrong shop in the same folder. Three causes: (a) geometric verification took a candidate's
 3 nearest peers regardless of credibility, so transplanted siblings verified each other with 200+ SIFT inliers;
 (b) the coherent-subgroup exemption accepted a group that was coherent only with itself; (c) folders whose spread
