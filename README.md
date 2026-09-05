@@ -35,6 +35,8 @@ python scripts/inspect_dataset.py --data dataset
 
 # 2. score every outlet, write results + HTML contact sheet
 outlet-audit run --data dataset --out results --config config.yaml --device auto --batch-size 16 --report
+outlet-audit run --data dataset --out results --config config.yaml --device cpu  --batch-size 16 --report   # force CPU
+outlet-audit run --data dataset --out results --config config.yaml --device cuda --batch-size 64 --report   # force GPU (cuda:N for a specific card)
 
 # 3. synthetic-injection validation (precision / recall / PR-AUC vs threshold), and baselines
 outlet-audit evaluate --data dataset --out results --config config.yaml                       # DINOv2 + geometry
